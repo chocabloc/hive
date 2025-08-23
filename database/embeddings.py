@@ -18,6 +18,13 @@ lastid = fragments.count()
 
 # simple search and add functions
 
+def get_by_id(id: str):
+    results = fragments.get(id)
+    return {
+        "text": results['documents'][0],
+        "metadata": results['metadatas'][0]
+    }
+
 def search_for(text: str, topk: int):
     results = fragments.query(
         query_texts=text,
@@ -25,6 +32,7 @@ def search_for(text: str, topk: int):
     )
     return [
         {
+            "id": results['ids'][0][i],
             "text": results['documents'][0][i],
             "distance": results['distances'][0][i],
             "metadata": results['metadatas'][0][i]
@@ -32,7 +40,7 @@ def search_for(text: str, topk: int):
         for i in range(0, topk)
     ]
 
-def add(text: str, refers_to: str):
+def add(text: str, refers_to=""):
     global lastid
     fragments.add(
         documents=text,
