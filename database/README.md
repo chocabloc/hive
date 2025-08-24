@@ -1,0 +1,1 @@
+A relational DB storing all the stuff mentioned in the json will be done along with the linking with the vectorDB.
