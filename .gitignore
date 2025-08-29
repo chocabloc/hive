@@ -1,1 +1,4 @@
 *.wav
+__pycache__
+database/data
+.vscode
