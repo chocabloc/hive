@@ -1,0 +1,72 @@
+services:
+  # Service 1: Audio Processing
+  audio_service:
+    build:
+      context: ./audio_service
+    env_file:
+      - .env
+    ports:
+      - "8001:8000"  # EXTERNAL: 8001, INTERNAL: 8000
+    volumes:
+      - ./audio_service/app:/code/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # Service 2: API Service
+  api_service:
+    build:
+      context: ./api_service
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api_service/app:/code/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      - audio_service
+    environment:
+      - AUDIO_SERVICE_URL=http://audio_service:8000 
+
+  # Service 3: MCP Service
+  mcp_service:
+    build: ./mcp_service
+    container_name: mcp_database_server
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  # Service 4: Streamlit Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api_service
+      - mcp_service
+    env_file:
+      - .env
+    volumes:
+      - ./frontend/app:/code/app
+    environment:
+      - NEON_HOST=${NEON_HOST}
+      - NEON_USER=${NEON_USER}
+      - NEON_PASSWORD=${NEON_PASSWORD}
+      - NEON_DB=${NEON_DB}
+      - API_URL=http://api_service:8000
+      - MCP_SERVICE_URL=http://mcp_service:8080/sse
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+
+networks:
+  default:
+    driver: bridge

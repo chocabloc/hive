@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+# Replace 'venv/' with your venv's name if different
+venv/
+.venv/
+env/
+.env/
+.python-version
+
+# Secrets - VERY IMPORTANT
+.env
+*.env
+.env.*
+!.env.example  # Can commit example env file
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info
+

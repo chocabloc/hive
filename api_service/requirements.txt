@@ -1,0 +1,33 @@
+# api_service/requirements.txt
+
+# --- Core API Libraries ---
+fastapi==0.120.4
+uvicorn==0.38.0
+python-multipart==0.0.20
+python-dotenv==1.2.1
+pymupdf==1.26.6
+
+# --- LangGraph & AI ---
+
+
+langgraph==1.0.2
+langchain==1.0.3
+langchain-core==1.0.2
+langchain-google-genai==3.0.0
+langchain-text-splitters==1.0.0
+
+# --- Database Clients ---
+psycopg2-binary==2.9.11  # For PostgreSQL
+
+# --- HTTP Client ---
+httpx==0.28.1            # For async calls to audio_service
+
+# --- Text Processing ---
+tiktoken==0.12.0
+
+# --- Pydantic (Core dependency) ---
+pydantic==2.12.3
+
+# --- Neo4j Driver ---
+neo4j==5.28.0
+langchain-openai==1.0.2

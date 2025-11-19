@@ -1,0 +1,18 @@
+
+# ---- Requirements for chat service ----
+google-generativeai
+fastmcp == 2.13.0.2
+python-dotenv == 1.2.1
+langchain-google-genai
+
+# ---- Requirements for mcp service ----
+asyncpg == 0.30.0
+mcp == 1.21.1
+neo4j==5.28.0
+
+# ---- Core Dependencies ----
+fastapi == 0.121.2
+uvicorn == 0.38.0
+python-multipart == 0.0.20
+python-dotenv == 1.2.1
+httpx == 0.28.1

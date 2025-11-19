@@ -1,0 +1,40 @@
+# Ignore Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info
+*.dist-info
+build/
+dist/
+
+# Ignore virtual environments
+venv/
+.env/
+.env.*
+
+# Ignore notebooks and large local data
+*.ipynb
+notebooks/
+*.wav
+*.mp3
+*.flac
+data/
+datasets/
+samples/
+shared_data/
+
+# Ignore git-related files
+.git/
+.gitignore
+
+# Ignore OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore test logs or cache
+*.log
+.cache/

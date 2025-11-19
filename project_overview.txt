@@ -1,0 +1,63 @@
+project/
+├── docker-compose.yml              # The "master" file — defines all four application services and networking.
+│
+├── api_service/                    # Service 2: The "Brain" (LangGraph + FastAPI)
+│   ├── Dockerfile
+│   ├── requirements.txt            # Dependencies: fastapi, langgraph, google-generativeai, psycopg2-binary, httpx.
+│   ├── .dockerignore
+│   └── app/
+│       ├── main.py                 # Handles /populate (to audio_service + LangGraph) and /query.
+│       ├── clients.py              # Gemini clients and Neon DB connection.
+│       ├── graph_population.py     # LangGraph "Graph 1" for populating DB.
+│       └── tools/
+│           └── tools_population.py # DB interaction tools.
+│
+├── audio_service/                  # Service 1: Audio Processing (SpeechBrain + FastAPI)
+│   ├── Dockerfile
+│   ├── requirements.txt            # Dependencies: fastapi, speechbrain, assemblyai, torch (GPU-enabled).
+│   ├── .dockerignore
+│   └── app/
+│       ├── main.py                 # POST /process_audio endpoint.
+│       └── processing.py           # Diarization and transcription logic.
+│
+├── mcp_service/                    # Service 3: Multi-Client Protocol Server (Real-time updates, SSE)
+│   ├── Dockerfile
+│   ├── requirements.txt            # Dependencies: fastapi, uvicorn.
+│   └── mcp_database_server.py      # FastAPI entrypoint for the SSE endpoint (/sse).
+│
+├── frontend/                       # Service 4: Streamlit UI
+│   ├── Dockerfile
+│   ├── requirements.txt            # Dependencies: streamlit, httpx.
+│   └── app/
+│       ├── Home.py                 # Main landing page.
+│       ├── chat.py                 # Chat logic utility for Streamlit pages.
+│       └── pages/
+│           ├── 1_Upload_Conversation.py
+│           ├── 2_Query_Conversation.py
+│           └── 3_View_Summaries.py
+│
+├── init_db/
+│   └── create_tables.sql           # SQL schema for manual Neon DB setup.
+|   └── cleardb.sql
+│
+├── .env.example                    # Environment variables template.
+├── .gitignore
+├── project_overview.txt
+└── README.md
+
+
+
+
+ISSUES
+
+1) For deleting the NeonDB and Neo4j, you need to manually delete them and also for setup you need to manually run the create_tables.sql on NeonDB. This will have to be made a frontend API endpoint at some point.
+2) Auth is kind of tedious right now, you need to populate the .env yourself from the .env.example. This I think can be automated since all these services just use google for signin. So that will have to be done at some point.
+
+
+FUTURE DIRECTIONS
+
+1) PROACTIVE REMINDERS
+2) INTEGRATION WITH TODO LISTS, CALENDARS, etc
+3) Character Sketches
+4) KG Improvements
+5) HARDWARE DESIGN???
