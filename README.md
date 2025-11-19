@@ -8,13 +8,17 @@ To get it up and running do the following:-
 
 To get the containers up and running:-
 
-3) docker compose up --build (first time could take 10-20 mins to build)
+3) ```docker compose up --build``` (first time could take 10-20 mins to build)
 
 4) The frontend will now be accessible on http://0.0.0.0:8501/
 
-5) For some reason it appears to only work on chromium based browsers and not on Firefox
+5) The frontend is fairly intuitive to operate. No backend knowledge is needed to operate it.
 
-6) Testing includes individual tests for api_service and audio_service for debugging purposes
+6) For some reason it appears to only work on chromium based browsers and not on Firefox.
+
+7) Testing includes individual tests for api_service and audio_service for debugging purposes.
+
+8) All the LLM evaluations are present under the folder ```evals```.
 
 -----------------------------------------
 
