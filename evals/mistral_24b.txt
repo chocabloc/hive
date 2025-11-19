@@ -1,0 +1,88 @@
+[
+  [
+    [
+      7.4,
+      9.2,
+      9.6,
+      8.0
+    ],
+    0.5,
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 6,
+        "completeness_score": 9,
+        "format_score": 8,
+        "overall_score": 7,
+        "justification": "The extraction accurately identifies most entities and relationships. However, there are consistent inaccuracies in resolving the year for dates where only the day and month were provided, and a specific day of the week was also mentioned in the transcript (e.g., 'Saturday, April 29th' and 'Friday, April 7th'). The model inferred the current year (2025) which often conflicted with the specified day of the week. Additionally, 'E-vites sent out' was incorrectly categorized as an event rather than an action."
+      },
+      "2": {
+        "accuracy_score": 10,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extracted data is highly accurate, with correct identification of events, actions, people, dates, and locations. Date inferences (e.g., year for 'May', specific dates for 'tomorrow' and 'today') are excellent. The format is perfectly structured as requested. The only minor omission is Liam's past time-off request, which, while approved, could have been included as an event, similar to the vacuum cleaner delivery. However, all critical and actionable items are present and correct."
+      },
+      "4": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The extraction correctly identified all events and actions, along with involved parties and locations where specified. The format is also perfect. However, a critical inaccuracy lies in the extracted dates. Given the current date of 2025-11-17, all future dates mentioned in the transcript (March 18th, March 10th, September 22nd) should logically refer to 2026, but they have been extracted as 2025. This makes the temporal information incorrect and significantly impacts the utility of the extracted data for scheduling."
+      },
+      "5": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and correctly formatted. Dates are correctly inferred with the appropriate year. The distinction between events and actions is well-maintained."
+      },
+      "6": {
+        "accuracy_score": 7,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 8,
+        "justification": "The extraction accurately identifies most events and actions with correct details. However, the date for the 'Internet installation' event is incorrect (2025-06-27 instead of 2025-06-30), which impacts accuracy."
+      }
+    },
+    [
+      {
+        "event_name": 16,
+        "people_involved": 31,
+        "date": 31,
+        "location": 31,
+        "source_sentence": 31,
+        "action_name": 15
+      },
+      31,
+      5,
+      0
+    ],
+    10,
+    [
+      0,
+      2,
+      4,
+      5,
+      6
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 4,
+      "fp": 2,
+      "fn": 12,
+      "precision": 3.5,
+      "recall": 1.2833333333333332,
+      "f1": 1.7999999999999998
+    }
+  },
+  null
+]

@@ -1,0 +1,104 @@
+[
+  [
+    [
+      2.2857142857142856,
+      2.2857142857142856,
+      7.0,
+      3.0
+    ],
+    0.7,
+    [
+      1.0,
+      1.0,
+      0.08,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 2,
+        "completeness_score": 3,
+        "format_score": 5,
+        "overall_score": 3,
+        "justification": "The extracted data has significant flaws. Dates are incorrect and source sentences are fabricated. The 'actions' section is largely unintelligible and misses key actions mentioned in the transcript, such as sending e-vites and ordering a cake."
+      },
+      "1": {
+        "accuracy_score": 2,
+        "completeness_score": 1,
+        "format_score": 3,
+        "overall_score": 2,
+        "justification": "The model failed to extract the correct date, time, and location for the meeting. It also completely missed the action items. The output is highly redundant, with multiple entries for the same event, and contains a malformed, nonsensical entry."
+      },
+      "2": {
+        "accuracy_score": 2,
+        "completeness_score": 3,
+        "format_score": 10,
+        "overall_score": 3,
+        "justification": "The model has significant inaccuracies. For example, the transcript states that Chloe needs to request time off, not Liam. The model also missed several events, such as the hotel booking and the vacuum purchase. The duplication of information between \"events\" and \"actions\" is also present."
+      },
+      "4": {
+        "accuracy_score": 3,
+        "completeness_score": 3,
+        "format_score": 10,
+        "overall_score": 4,
+        "justification": "The model failed to extract several key events, such as the caterer tasting and the wedding itself. Additionally, many of the extracted details are incorrect; dates are wrong, the specific venue location is missing, and the people involved are inaccurately assigned."
+      },
+      "6": {
+        "accuracy_score": 2,
+        "completeness_score": 3,
+        "format_score": 6,
+        "overall_score": 3,
+        "justification": "The extraction has major accuracy issues, including incorrect dates and fabricated source sentences. It is also incomplete, missing several key events and actions mentioned in the transcript. The format is structurally correct but contains redundant and inaccurate information."
+      },
+      "7": {
+        "accuracy_score": 2,
+        "completeness_score": 1,
+        "format_score": 5,
+        "overall_score": 2,
+        "justification": "The extracted data is highly inaccurate. It includes a person not mentioned in the transcript (John), contains incorrect and improperly formatted dates, and completely misses all the key actions and deadlines. The output is also repetitive."
+      },
+      "9": {
+        "accuracy_score": 3,
+        "completeness_score": 2,
+        "format_score": 10,
+        "overall_score": 4,
+        "justification": "The model hallucinates an extra person (John) who is not in the transcript. It incorrectly uses the current date for the event instead of the actual event date (December 7th). The location and several key actions are also missing from the extraction."
+      }
+    },
+    [
+      {
+        "event_name": 18,
+        "people_involved": 25,
+        "date": 25,
+        "location": 2,
+        "source_sentence": 25,
+        "action_name": 7
+      },
+      25,
+      7,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      4,
+      6,
+      7,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 1,
+      "fp": 7,
+      "fn": 17,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  null
+]

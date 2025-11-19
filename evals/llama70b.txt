@@ -1,0 +1,128 @@
+[
+  [
+    [
+      7.0,
+      9.3,
+      9.8,
+      8.0
+    ],
+    1.0,
+    [
+      1.0,
+      0.9710144927536232,
+      0.6376811594202898,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data correctly identifies events, actions, and participants. However, it fails to correctly infer the year for several dates based on the provided current date (2025-11-17). The event date, e-vite deadline, and cake pickup date are all incorrectly set to 2025 instead of 2026, which is a significant accuracy issue for planning purposes."
+      },
+      "1": {
+        "accuracy_score": 5,
+        "completeness_score": 7,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The extraction correctly identifies events, actions, people, and locations, and the format is perfect. However, there's a critical error in the year for all extracted dates; given the current date and context, all 'October' dates should refer to 2026 instead of 2025. Additionally, the specific time range for the Q3 Business Review (2 PM to 4 PM) was not captured."
+      },
+      "2": {
+        "accuracy_score": 9,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extraction is highly accurate, converting relative dates correctly and capturing most key events and actions. The format is perfect. Minor improvements could include explicitly adding the specific hotel dates to the 'date' field for the 'Reserve hotel' action and potentially capturing Liam's already approved time off as a past event/action if desired."
+      },
+      "3": {
+        "accuracy_score": 6,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 8,
+        "justification": "The extraction is largely accurate and complete, capturing all significant project events and actions. The formatting is excellent. However, there is a critical error in the extracted date for the 'Final code freeze' event, which is listed as '2025-11-17' instead of '2025-11-10' (based on the explicit date in the transcript, despite the ambiguous 'this Friday' reference)."
+      },
+      "4": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 8,
+        "overall_score": 6,
+        "justification": "Dates for future events (Venue Visit, Wedding, Caterer Tasting) are incorrectly inferred as 2025 instead of 2026, given the current date of 2025-11-17. The 'date' field for 'Send Deposit to Venue' is a string description rather than a structured date, which is inconsistent with other date fields."
+      },
+      "5": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and perfectly formatted. All relevant events and actions are captured with correct details, including inferred dates and locations where applicable."
+      },
+      "6": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "All events and actions are accurately extracted with correct dates, people, and locations. The relative dates and 'today' references are correctly interpreted based on the current date. All key information is present and well-formatted."
+      },
+      "7": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The extracted data is well-formatted and generally complete, identifying all key events and actions. However, there are significant inaccuracies in the inferred dates, particularly the year, which should be 2026 for August/July events given the current date of 2025-11-17. Additionally, the inferred dates for actions like 'Set up Team Donation Page' and 'Email Sign-up Link' are incorrect based on the 'by Monday' and sequential nature. The location for 'Community 5K Run' is not explicitly stated as 'Downtown', and 'Company Team' is incorrectly listed as involved in the 'Downtown Street Fair'."
+      },
+      "8": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and perfectly formatted. Dates are correctly interpreted for the next year, including ranges and approximate dates. The distinction between events and actions is well-handled, and all relevant information from the transcript is captured without including irrelevant conversational tangents."
+      },
+      "9": {
+        "accuracy_score": 8,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extraction is largely accurate and complete. All key events and actions are identified with correct participants and locations. The primary area for improvement is the precision of dates for actions that are deadlines leading up to an event (e.g., 'finish reading by Dec 7th' or 'prepare suggestions by Dec 7th'), which were incorrectly set to occur *on* Dec 7th."
+      }
+    },
+    [
+      {
+        "event_name": 32,
+        "people_involved": 69,
+        "date": 67,
+        "location": 44,
+        "source_sentence": 69,
+        "action_name": 37
+      },
+      69,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 22,
+      "precision": 8.5,
+      "recall": 4.783333333333333,
+      "f1": 5.585714285714285
+    }
+  },
+  null
+]

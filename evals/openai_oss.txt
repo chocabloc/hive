@@ -1,0 +1,128 @@
+[
+  [
+    [
+      6.9,
+      8.4,
+      10.0,
+      7.5
+    ],
+    1.0,
+    [
+      1.0,
+      1.0,
+      0.96875,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 4,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data correctly identifies most events, actions, people involved, and locations, and the format is excellent. However, there is a significant inaccuracy in the inferred year for the dates. The extracted dates (e.g., '2025-04-29' for 'Saturday, April 29th' and '2025-04-07' for 'Friday, April 7th') contradict the days of the week mentioned in the transcript (April 29th, 2025 was a Tuesday, and April 7th, 2025 was a Monday). This makes the temporal information largely incorrect. Additionally, 'Brewery booking' is listed as an event but could be better categorized as an action."
+      },
+      "1": {
+        "accuracy_score": 7,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "Most details are correctly extracted. However, 'Conference Room Booking' is misclassified as an event instead of an action. Additionally, the date for 'Maria review of slide deck' is set to '2025-10-03', which is the deadline for sending the deck, not the review itself (which would happen after this date). All relevant items are captured, and the format is perfect."
+      },
+      "2": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and perfectly formatted. All dates are correctly inferred relative to the current date, and all significant events and actions, along with their associated details, are captured."
+      },
+      "3": {
+        "accuracy_score": 8,
+        "completeness_score": 2,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data accurately identifies the Project Titan launch event and a key action. However, it is significantly incomplete, missing several important deadlines and events (e.g., final code freeze, web copy submission, QA testing sprint, Jen's vacation). The date for the 'Confirm project track' action is inferred as the current date. The format is correct."
+      },
+      "4": {
+        "accuracy_score": 8,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extracted data is largely accurate and complete. All major events and actions are identified with correct dates and source sentences. However, there are minor inaccuracies: 'Sam' is incorrectly included in 'people_involved' for both the 'Preliminary Caterer Tasting' event and action, as only 'Alex' is mentioned. Additionally, the 'location' for 'Send Deposit to Venue' is prematurely specified as 'The Oakside Vineyard' instead of a more general 'Chosen Venue,' as the decision is still pending. The formatting is excellent."
+      },
+      "5": {
+        "accuracy_score": 4,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data correctly identifies most events and actions, people, and locations. However, there is a critical inaccuracy in the year for all future dates (extracted as 2025 instead of 2026, given the current date is 2025-11-17), making the extracted information misleading for scheduling. Additionally, the dates for several actions reflect the date of the event being discussed rather than when the action itself occurs (e.g., adding to calendar, checking schedule). The action 'Schedule blood work' is also inaccurate as blood work is a walk-in and doesn't require scheduling."
+      },
+      "6": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data correctly identifies most events, actions, people involved, and source sentences. The format is also perfect. However, there are significant inaccuracies in date extraction. The year is consistently incorrect (2024 instead of the implied 2026 based on the current date). The specific date for 'Internet installation' is incorrect (June 27th instead of June 30th). Additionally, the dates assigned to actions like 'Call moving company' are arbitrary and incorrect, as they are based on a faulty interpretation of 'today' relative to the events."
+      },
+      "7": {
+        "accuracy_score": 4,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The extracted dates consistently use the incorrect year (2025 instead of 2026) for future events, given the current date of 2025-11-17. For instance, 'August 12th' and 'July 15th' should refer to 2026. This significantly impacts accuracy. Otherwise, the structure is correct and most relevant information is captured."
+      },
+      "8": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is exceptionally accurate, complete, and perfectly formatted. All renovation timeline events and actions, along with their associated details (dates, people, location, source sentences), are precisely captured. The date interpretations, including ranges, are correct, and the distinction between events and actions is well-maintained."
+      },
+      "9": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and perfectly formatted. All relevant events and actions, along with their associated details, have been correctly identified and structured. Dates and locations were correctly inferred based on context and the provided current date."
+      }
+    },
+    [
+      {
+        "event_name": 30,
+        "people_involved": 64,
+        "date": 64,
+        "location": 62,
+        "source_sentence": 64,
+        "action_name": 34
+      },
+      64,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 8,
+      "fp": 4,
+      "fn": 22,
+      "precision": 7.5,
+      "recall": 3.2833333333333337,
+      "f1": 4.319047619047619
+    }
+  },
+  null
+]

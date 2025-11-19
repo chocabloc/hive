@@ -1,0 +1,128 @@
+[
+  [
+    [
+      4.8,
+      4.8,
+      8.3,
+      5.1
+    ],
+    1.0,
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 4,
+        "completeness_score": 4,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The model failed to extract key information, including the locations (brewery, Miller's Bakery) and the name of the person the party is for (Mark). The 'source_sentence' for each item is incorrectly populated with the event/action name rather than the actual sentence from the transcript. There is also unnecessary redundancy between the 'events' and 'actions' lists. The JSON format, however, is correct."
+      },
+      "1": {
+        "accuracy_score": 2,
+        "completeness_score": 4,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The model failed to extract correct dates, repeatedly inserting the current date instead of the specific dates mentioned in the transcript (e.g., \"October 10th\", \"October 3rd\"). It also missed key information, such as the location of the meeting (\"main conference room\") and additional people involved (\"executive team\"). An entire action item (\"compile all the regional data\") was missed. While the overall structure is good, the data within it is frequently inaccurate and incomplete."
+      },
+      "2": {
+        "accuracy_score": 3,
+        "completeness_score": 6,
+        "format_score": 10,
+        "overall_score": 4,
+        "justification": "The model failed to extract correct dates, consistently using the current date instead. It also made significant errors in attributing who was involved in certain actions and used incorrect source sentences. The distinction between events and actions was also poor, leading to duplication."
+      },
+      "3": {
+        "accuracy_score": 6,
+        "completeness_score": 6,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identifies most key events and dates but misses the main project launch date. The 'people_involved' and 'source_sentence' fields have inaccuracies, as the former is often incomplete and the latter contains generated titles instead of text from the transcript."
+      },
+      "4": {
+        "accuracy_score": 10,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The extracted data is accurate and well-formatted. However, it suffers from significant completeness issues. Key details such as the venue's name ('The Oakside Vineyard'), the time of the visit ('11 AM'), and the main wedding date ('September 22nd') were all missed in the final output."
+      },
+      "5": {
+        "accuracy_score": 7,
+        "completeness_score": 5,
+        "format_score": 6,
+        "overall_score": 6,
+        "justification": "The extracted data is mostly accurate but incomplete and contains redundant information. It correctly identifies the two main events but misses key details like the appointment time (10:30 AM), the year (2026), and the locations (Dr. Chen's office, the lab). The distinction between 'events' and 'actions' is unclear, leading to duplicated entries."
+      },
+      "6": {
+        "accuracy_score": 5,
+        "completeness_score": 6,
+        "format_score": 2,
+        "overall_score": 4,
+        "justification": "The model fails to correctly use the 'source_sentence' field, instead just repeating the event/action name. It also misses the location for the lease signing ('at their office') and incorrectly assigns the date of the event to the action of booking it (e.g., the move is on July 1st, but the booking action is 'today')."
+      },
+      "7": {
+        "accuracy_score": 3,
+        "completeness_score": 5,
+        "format_score": 7,
+        "overall_score": 4,
+        "justification": "The extraction has significant accuracy issues, particularly with dates; for instance, the date for setting up the donation page is wrong, and the current date is incorrectly used for two events. The model also missed the main event, the 'Community 5K Run,' and an action item for Kenji. Furthermore, there is a high degree of redundancy between the 'events' and 'actions' lists."
+      },
+      "8": {
+        "accuracy_score": 6,
+        "completeness_score": 4,
+        "format_score": 9,
+        "overall_score": 6,
+        "justification": "The model correctly extracted some key dates but missed the countertop installation (March 1st). It also incorrectly included irrelevant conversational filler like the football game and failed to specify the date for the cabinet installation."
+      },
+      "9": {
+        "accuracy_score": 2,
+        "completeness_score": 3,
+        "format_score": 9,
+        "overall_score": 3,
+        "justification": "The model correctly identifies the people and their general actions. However, it completely fails on accuracy and completeness. All dates are incorrectly set to the current date instead of the dates mentioned in the transcript (Dec 7th, Nov 30th). It also missed the location and time for the main event."
+      }
+    },
+    [
+      {
+        "event_name": 37,
+        "people_involved": 62,
+        "date": 62,
+        "location": 0,
+        "source_sentence": 62,
+        "action_name": 25
+      },
+      62,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 4,
+      "fp": 8,
+      "fn": 33,
+      "precision": 3.5,
+      "recall": 0.95,
+      "f1": 1.4666666666666668
+    }
+  },
+  null
+]

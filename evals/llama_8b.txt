@@ -1,0 +1,128 @@
+[
+  [
+    [
+      4.8,
+      6.5,
+      9.2,
+      5.8
+    ],
+    1.0,
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 4,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data has major accuracy and completeness issues. The date for booking the brewery is hallucinated (April 17th is not in the text), and the year for all dates is incorrect (it should be 2026, as April 2025 has passed). Key locations like 'the brewery' and 'Miller's Bakery' are missing. Additionally, 'Ordering Cake' is redundantly listed as both an event and an action. The formatting is perfect."
+      },
+      "1": {
+        "accuracy_score": 5,
+        "completeness_score": 6,
+        "format_score": 9,
+        "overall_score": 6,
+        "justification": "The model correctly identified the main events and actions but missed key details. For the 'Business Review' event, it omitted the 'entire executive team' from the attendees and the 'main conference room' as the location. It also incorrectly categorized 'Finalizing Q3 Sales Numbers' as both an event and an action, and listed the already completed 'Booking Conference Room' as a future action."
+      },
+      "2": {
+        "accuracy_score": 7,
+        "completeness_score": 7,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identified most events, actions, and their corresponding details. However, it missed the location of the vacation (Japan) and the hotel (Kyoto), leaving the location fields blank. It also missed the smaller event of Liam's time off request already being approved. The formatting is perfect."
+      },
+      "3": {
+        "accuracy_score": 6,
+        "completeness_score": 7,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identified the main events and actions but made significant errors in date interpretation, failing to reconcile the stated day of the week with the calendar date. It also missed a few key events mentioned in the transcript, such as the QA testing sprint. The formatting is perfect."
+      },
+      "4": {
+        "accuracy_score": 5,
+        "completeness_score": 6,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identified most entities and structured the output well. However, it failed to extract the venue location ('The Oakside Vineyard'), incorrectly assigned the 'Send Venue Deposit' action solely to Sam, and hallucinated the year 2023 for the event dates, as no year was mentioned in the transcript."
+      },
+      "5": {
+        "accuracy_score": 4,
+        "completeness_score": 6,
+        "format_score": 3,
+        "overall_score": 4,
+        "justification": "The model incorrectly duplicates the 'events' list into an 'actions' list. The source sentence for the second event is completely wrong. It also fails to extract key details like the appointment time and the doctor's name. The 'people_involved' field is poorly formatted, including conversational text rather than just the names."
+      },
+      "6": {
+        "accuracy_score": 3,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 4,
+        "justification": "The data is structured correctly, but there are significant accuracy and completeness issues. All extracted dates use the wrong year (2023). The date for 'Call moving company' is incorrect, as the transcript says 'today'. Key details like the location for the lease signing ('at their office') are missing. There is also a redundant entry for booking the movers."
+      },
+      "7": {
+        "accuracy_score": 6,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model incorrectly duplicates the main charity run event and misses the action to register the team by July 15th. The year for all dates is also incorrectly inferred as 2023, as the transcript provides no year. Finally, the source sentence for the \"5K Run\" event is wrong."
+      },
+      "8": {
+        "accuracy_score": 3,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The data is well-structured and mostly complete. However, there is a major accuracy issue with the extracted dates. The years are inferred inconsistently (using both 2023 and 2025), whereas the context of the conversation implies all dates are in the near future, likely 2026."
+      },
+      "9": {
+        "accuracy_score": 5,
+        "completeness_score": 7,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The model correctly extracted most entities but made significant errors. It missed the location for the meeting (Rachel's place) and hallucinated a date (2025-12-17) for Brian's action item, which was not mentioned in the transcript. The event 'Judging the new brownies' is trivial."
+      }
+    },
+    [
+      {
+        "event_name": 25,
+        "people_involved": 51,
+        "date": 51,
+        "location": 0,
+        "source_sentence": 51,
+        "action_name": 26
+      },
+      51,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 3,
+      "fp": 9,
+      "fn": 22,
+      "precision": 2.5,
+      "recall": 1.0833333333333333,
+      "f1": 1.4
+    }
+  },
+  null
+]

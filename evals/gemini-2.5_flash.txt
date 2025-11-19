@@ -1,0 +1,128 @@
+[
+  [
+    [
+      8.6,
+      9.2,
+      10.0,
+      8.9
+    ],
+    1.0,
+    [
+      1.0,
+      1.0,
+      0.288135593220339,
+      1.0
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The model performed excellently, accurately extracting all events and actions with correct dates, people, and locations. The date inference based on the current date was handled correctly. The action descriptions were comprehensive and the overall structure was perfect."
+      },
+      "1": {
+        "accuracy_score": 6,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identified all key events and actions. However, there were several inaccuracies in the extracted details, particularly with dates for action items (e.g., Maria's review date) and the 'people_involved' field, where plural pronouns like 'we' were not fully captured. The overall structure and format are excellent."
+      },
+      "2": {
+        "accuracy_score": 9,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The model correctly extracted all events and actions with high accuracy and perfect formatting. The completeness score was slightly lower because the end date for the Kyoto hotel stay was missed."
+      },
+      "3": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The model performed excellently. It accurately extracted all relevant events and actions, correctly identified the associated dates and people, and successfully inferred the correct teams (Dev, QA, Marketing) and the current date for an immediate action. The formatting is perfect and the irrelevant conversation was correctly ignored."
+      },
+      "4": {
+        "accuracy_score": 5,
+        "completeness_score": 8,
+        "format_score": 10,
+        "overall_score": 7,
+        "justification": "The model correctly identified most events and actions, but it failed to accurately determine the year for the dates. The transcript mentions 'Saturday, March 18th', but the extracted year 2026 makes that date a Wednesday. The correct year should have been 2028. Additionally, the time for the venue visit (11 AM) was missed. The dates assigned to the actions were also based on assumptions rather than explicit information in the text."
+      },
+      "5": {
+        "accuracy_score": 8,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The model correctly identified all events and actions. The dates were accurately inferred based on the current date provided. There is a minor inaccuracy in the date for the \"Get blood work done\" action; the transcript mentions the \"week of January 8th\", but the model extracted a single, speculative date within that week (January 15th). Otherwise, the extraction is excellent."
+      },
+      "6": {
+        "accuracy_score": 9,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extracted data is highly accurate and complete, correctly inferring dates from the context. A minor omission is the location for the 'move to the new apartment' event, which could have been listed as 'new apartment'."
+      },
+      "7": {
+        "accuracy_score": 9,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extracted data is highly accurate and complete. The model correctly identified all key events and actions, and correctly inferred the year for future dates. There was a minor error in calculating the date based on 'by Monday', resulting in a one-day discrepancy for two of the actions."
+      },
+      "8": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The model accurately extracted all relevant events and actions, correctly inferring the year for the dates based on the context. The output is well-formatted and complete."
+      },
+      "9": {
+        "accuracy_score": 10,
+        "completeness_score": 9,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The model correctly identified the key event and all associated actions, with accurate dates and people. There is a minor redundancy in listing \"hosting\" as a separate action when it's part of the main event, and the location for some actions could have been inferred. Overall, a high-quality extraction."
+      }
+    },
+    [
+      {
+        "event_name": 26,
+        "people_involved": 59,
+        "date": 59,
+        "location": 17,
+        "source_sentence": 59,
+        "action_name": 33
+      },
+      59,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 16,
+      "precision": 8.5,
+      "recall": 5.1000000000000005,
+      "f1": 5.9714285714285715
+    }
+  },
+  null
+]

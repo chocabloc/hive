@@ -1,0 +1,112 @@
+[
+  [
+    [
+      6.875,
+      6.25,
+      9.875,
+      6.625
+    ],
+    0.8,
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  ],
+  [
+    {
+      "2": {
+        "accuracy_score": 7,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The date for Chloe's time off request is incorrect; it should be '2025-11-18' (tomorrow) not '2025-11-17' (today). The extraction misses several key actions mentioned in the transcript, such as Liam's already approved time-off request, Liam's purchase of a vacuum cleaner, and Liam's commitment to reserve the hotel. The format of the extracted data is correct."
+      },
+      "3": {
+        "accuracy_score": 10,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 10,
+        "justification": "The extracted data is highly accurate, complete, and perfectly formatted. All relevant events and actions, along with their associated dates and participants, have been correctly identified and structured from the transcript."
+      },
+      "4": {
+        "accuracy_score": 9,
+        "completeness_score": 10,
+        "format_score": 10,
+        "overall_score": 9,
+        "justification": "The extraction is highly accurate and complete, correctly identifying all key events and actions with their associated details and source sentences. Date inference based on the current date is also correct. The only minor inaccuracy is including 'Sam' in 'people_involved' for the 'Caterer Tasting Appointment' when the transcript explicitly states 'I'm also still meeting the caterer' (referring to Alex)."
+      },
+      "5": {
+        "accuracy_score": 4,
+        "completeness_score": 5,
+        "format_score": 9,
+        "overall_score": 5,
+        "justification": "Accuracy: The extracted dates for the annual check-up and blood work appointments have an incorrect year (2025 instead of the implied 2026 given the current date). The 'Schedule Blood Work Appointment' action name is slightly inaccurate as no appointment is needed. The source sentence for 'Add Appointment to Work Calendar' is a misquote that changes the original intent. Completeness: The locations for the annual check-up (Dr. Chen's office) and blood work (the lab) are missing. The 'before 4 PM' time constraint for blood work is also omitted. Format: The JSON structure is correctly formatted and uses appropriate data types."
+      },
+      "6": {
+        "accuracy_score": 7,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The extraction accurately identifies the lease signing event and the mover booking action. However, it incorrectly places the location within the date field for the event and, more critically, completely misses the action related to utilities transfer/internet installation."
+      },
+      "7": {
+        "accuracy_score": 6,
+        "completeness_score": 4,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "The main event and one action are correctly identified, and the format is good. However, the inferred year for the dates is inaccurate, as it makes the event and deadline appear to be in the past despite contextual cues for future actions. Crucially, several explicit actions (setting up donation page, ordering t-shirts, emailing sign-up link) and another mentioned event (street fair) are missing from the extraction, significantly impacting completeness."
+      },
+      "8": {
+        "accuracy_score": 6,
+        "completeness_score": 4,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extraction correctly identified the main kitchen renovation event and the plastic sheeting action. However, it incorrectly assigned the date 'February 7th, 2025' to the plastic sheeting action, as no specific date was mentioned in the transcript for this. More importantly, the extraction is significantly incomplete, failing to capture several other key events and their associated dates, including cabinet delivery and installation (February 20th), countertop installation (around March 1st), and the projected kitchen usability date (end of March). The format of the extracted data is correct."
+      },
+      "9": {
+        "accuracy_score": 6,
+        "completeness_score": 7,
+        "format_score": 10,
+        "overall_score": 6,
+        "justification": "Accuracy is fair; locations for the book club meeting are missing, and one event's name includes an action. The first event's date interpretation is ambiguous. Completeness is moderate due to missing location details. Format is excellent."
+      }
+    },
+    [
+      {
+        "event_name": 11,
+        "people_involved": 24,
+        "date": 24,
+        "location": 0,
+        "source_sentence": 24,
+        "action_name": 13
+      },
+      24,
+      8,
+      0
+    ],
+    10,
+    [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 3,
+      "fp": 7,
+      "fn": 8,
+      "precision": 2.5,
+      "recall": 2.3333333333333335,
+      "f1": 2.1666666666666665
+    }
+  },
+  null
+]

@@ -1,0 +1,3338 @@
+1. Planning a Birthday Party
+Anna: Alright, regarding Mark's big 40th birthday party, which is rapidly approaching, are we absolutely certain we are still planning to aim for the last weekend in April, or should we consider a backup?
+Ben: Yes, I think we should definitely lock in Saturday, April 29th, primarily because I went ahead and called the brewery earlier today to double-check, and they confirmed the entire patio area is still free for that whole evening.
+Anna: That's perfect news, as getting that specific patio is a huge relief. On a completely different subject, did you happen to catch that bizarre new sci-fi show last night, the one everyone online is talking about, because I thought it was absolutely wild.
+Ben: Oh, do you mean the one with the self-aware robots that's been all over my feed? I haven't seen it yet, so please don't spoil anything for me, as I'm still trying to get through that ridiculous baking competition show first, which is my guilty pleasure. But getting back to the party, since the venue is available, can you please make sure to book the brewery officially today?
+Anna: Right, that's the priority. I will get on that immediately, and then I'll shift my focus to handling the e-vites, which I plan to design and get sent out to everyone by this Friday, April 7th, so we can start getting an accurate headcount.
+Ben: Sounds like a solid plan; while you do that, I'll take responsibility for ordering the cake from Miller's Bakery, ensuring it's the chocolate flavor he likes and specifically scheduled for pickup on the afternoon of the 29th.
+{
+  "events": [
+    {
+      "event_name": "Mark's 40th Birthday Party",
+      "people_involved": ["Anna", "Ben", "Mark"],
+      "date": "April 29th 2025",
+      "location": "The Brewery",
+      "source_sentence": "Yes, I think we should definitely lock in Saturday, April 29th, primarily because I went ahead and called the brewery earlier today to double-check, and they confirmed the entire patio area is still free for that whole evening."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Booking the brewery",
+      "people_involved": ["Anna"],
+      "date": "Today",
+      "location": "N/A",
+      "source_sentence": "But getting back to the party, since the venue is available, can you please make sure to book the brewery officially today?"
+    },
+    {
+      "action_name": "Handling e-vites",
+      "people_involved": ["Anna"],
+      "date": "April 7th 2025",
+      "location": "N/A",
+      "source_sentence": "I will get on that immediately, and then I'll shift my focus to handling the e-vites, which I plan to design and get sent out to everyone by this Friday, April 7th."
+    },
+    {
+      "action_name": "Ordering the cake",
+      "people_involved": ["Ben"],
+      "date": "Today",
+      "location": "Miller's Bakery",
+      "source_sentence": "Sounds like a solid plan; while you do that, I'll take responsibility for ordering the cake from Miller's Bakery, ensuring it's the chocolate flavor he likes and specifically scheduled for pickup on the afternoon of the 29th."
+    }
+  ]
+}
+JSON
+
+2. Scheduling a Business Review
+Sarah: Hi David, I'm currently in the process of setting up the mandatory Q3 Business Review with the entire executive team, and I wanted to confirm if Tuesday, October 10th at 2 PM is still a viable time for you to present your findings.
+David: Yes, that specific time still works perfectly for my schedule, although I have to say, the traffic this morning was absolutely brutal; I was stuck on the freeway for nearly an hour just to go five miles, which is just an awful way to start the day.
+Sarah: Ugh, please don't remind me, as I had my own personal disaster involving spilling an entire large coffee all over my car's center console right as I was pulling into the parking garage, so I'm not in the best mood. Anyway, focusing on the meeting, I’ve already gone ahead and booked the main conference room for us from 2 PM to 4 PM on that day, ensuring we have ample time for discussion and questions.
+David: That's great, thank you for handling that. Our next critical action item is to finalize the Q3 sales numbers across all territories, and then we absolutely must send the completed draft slide deck over to Maria by EOD October 3rd so she has sufficient time for her review.
+Sarah: Speaking of Maria, have you even seen her adorable new puppy? She brought it into the office last week, and it’s the cutest little golden retriever. But, yes, regarding the data, I will ensure my team compiles all the regional data well before that October 3rd deadline.
+
+{
+  "events": [
+    {
+      "event_name": "Q3 Business Review",
+      "people_involved": ["Sarah", "David", "Exec Team"],
+      "date": "October 10th October",
+      "location": "Main Conference Room",
+      "source_sentence": "Hi David, I'm currently in the process of setting up the mandatory Q3 Business Review with the entire executive team, and I wanted to confirm if Tuesday, October 10th at 2 PM is still a viable time for you to present your findings."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Booking the conference room",
+      "people_involved": ["Sarah"],
+      "date": "10th October",
+      "location": "Main Conference Room",
+      "source_sentence": "Anyway, focusing on the meeting, I’ve already gone ahead and booked the main conference room for us from 2 PM to 4 PM on that day, ensuring we have ample time for discussion and questions."
+    },
+    {
+      "action_name": "Finalize sales numbers & send deck",
+      "people_involved": ["David"],
+      "date": "October 3rd",
+      "location": "N/A",
+      "source_sentence": "Our next critical action item is to finalize the Q3 sales numbers across all territories, and then we absolutely must send the completed draft slide deck over to Maria by EOD October 3rd so she has sufficient time for her review."
+    },
+    {
+      "action_name": "Compile regional data",
+      "people_involved": ["Sarah's team"],
+      "date": "3rd October",
+      "location": "N/A",
+      "source_sentence": "But, yes, regarding the data, I will ensure my team compiles all the regional data well before that October 3rd deadline."
+    }
+  ]
+}
+
+3. Arranging a Vacation
+Liam: I am getting so excited about our upcoming trip to Japan, which we've been planning forever; are we completely decided on traveling during the first two weeks of May?
+Chloe: Yes, the plan is to fly out on May 1st and then return on May 15th, which means I definitely need to request the time off from my manager by tomorrow at the latest, as our team is quite swamped.
+Liam: I already put in my request last week, and my manager was a little weird about it, probably because of all those stressful merger rumors, but it's approved. Oh, and speaking of approvals, I bought that new vacuum cleaner you wanted from the online sale, and it was delivered today.
+Chloe: Oh, that's awesome! Does it look like it will work on that difficult shag rug in the living room, or is it just for hardwood?
+Liam: I haven't tried it yet, as I wanted to wait for you. But, getting back to the trip, can you please book the flights tonight while that good deal is still active? I found a great itinerary on that airline I like.
+Chloe: Will do, I'll handle the flights, and you're still doing the hotels, right?
+Liam: Correct, I'll reserve the hotel in Kyoto for our planned dates of May 5th through May 8th as soon as you send me the flight confirmation.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Trip to Japan",
+      "people_involved": ["Liam", "Chloe"],
+      "date": "May 1st",
+      "location": "Japan",
+      "source_sentence": "Yes, the plan is to fly out on May 1st and then return on May 15th, which means I definitely need to request the time off from my manager by tomorrow at the latest, as our team is quite swamped."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Request time off",
+      "people_involved": ["Chloe"],
+      "date": "November 16",
+      "location": "N/A",
+      "source_sentence": "Yes, the plan is to fly out on May 1st and then return on May 15th, which means I definitely need to request the time off from my manager by tomorrow at the latest, as our team is quite swamped."
+    },
+    {
+      "action_name": "Book the flights",
+      "people_involved": ["Chloe"],
+      "date": "November 15",
+      "location": "N/A",
+      "source_sentence": "But, getting back to the trip, can you please book the flights tonight while that good deal is still active?"
+    },
+    {
+      "action_name": "Reserve hotel in Kyoto",
+      "people_involved": ["Liam"],
+      "date": "May 5th",
+      "location": "Kyoto",
+      "source_sentence": "Correct, I'll reserve the hotel in Kyoto for our planned dates of May 5th through May 8th as soon as you send me the flight confirmation."
+    }
+  ]
+}
+
+4. Discussing a Project Deadline
+Mike: I need to confirm that we are still realistically on track for the Project Titan launch on November 20th, because it feels like we're cutting it very close.
+Jen: We are, but just barely, which means we absolutely must complete the final code freeze by this Friday, November 10th, and there can be no exceptions or last-minute changes.
+Mike: Okay, I'll emphasize that to the dev team. What are you thinking for lunch today? I was leaning toward grabbing those tacos from the new truck.
+
+Jen: I can't today, as I brought leftovers, mostly because I tried that new curry place yesterday and I'm not entirely sure it agreed with me, so I'm playing it safe.
+Mike: Oh, that's not good. Okay, tacos are on hold. So, what's the status on the marketing assets for the launch?
+Jen: They need to submit the final web copy for legal review no later than November 15th, which is the absolute drop-dead date. Once the freeze is in place, the final QA testing sprint will run from the 13th to the 17th to catch any remaining bugs.
+Mike: Understood. I honestly cannot wait for this project to be over, as I am completely burned out from the late nights.
+Jen: You and me both; I've already scheduled a week of vacation starting November 21st, and I plan to do nothing but sleep for seven days straight.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Project Titan Launch",
+      "people_involved": ["Mike", "Jen", "Dev Team", "Marketing", "QA"],
+      "date": "November 20th",
+      "location": "N/A",
+      "source_sentence": "I need to confirm that we are still realistically on track for the Project Titan launch on November 20th, because it feels like we're cutting it very close."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Complete code freeze",
+      "people_involved": ["Dev Team"],
+      "date": "November 10th",
+      "location": "N/A",
+      "source_sentence": "We are, but just barely, which means we absolutely must complete the final code freeze by this Friday, November 10th, and there can be no exceptions or last-minute changes."
+    },
+    {
+      "action_name": "Submit final web copy",
+      "people_involved": ["Marketing"],
+      "date": "November 15th",
+      "location": "N/A",
+      "source_sentence": "They need to submit the final web copy for legal review no later than November 15th, which is the absolute drop-dead date."
+    },
+    {
+      "action_name": "Final QA testing",
+      "people_involved": ["QA Team"],
+      "date": "November 13th - 17th",
+      "location": "N/A",
+      "source_sentence": "Once the freeze is in place, the final QA testing sprint will run from the 13th to the 17th to catch any remaining bugs."
+    },
+    {
+      "action_name": "Take vacation",
+      "people_involved": ["Jen"],
+      "date": "November 21st",
+      "location": "N/A",
+      "source_sentence": "You and me both; I've already scheduled a week of vacation starting November 21st, and I plan to do nothing but sleep for seven days straight."
+    }
+  ]
+}
+
+5. Wedding Planning (Venue Visit)
+Alex: I was wondering, did you ever hear back from The Oakside Vineyard about our inquiry for a tour, since they were supposed to email us last week?
+Sam: Yes, they finally replied this morning! They confirmed they can have us for a full site visit and tasting on Saturday, March 18th at 11 AM, which should be perfect.
+Alex: That's fantastic news. This awful rain is supposed to stop by then, isn't it? I really want to be able to see the grounds and the ceremony space in the sun.
+Sam: The forecast I checked said clear skies for that whole weekend, so we should be good. On an unrelated note, my car is making that weird rattling noise again, which is incredibly frustrating.
+Alex: Ugh, not again; you just had it at the mechanic for that exact issue last month, didn't you?
+Sam: I know, I'll have to take it back. Anyway, regarding the venue, if we end up liking it, we must send the deposit within 48 hours to officially hold our September 22nd wedding date.
+Alex: Right, that's a tight turnaround. Just so we keep our options open, I'm also still meeting the caterer for a preliminary tasting on March 10th.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Venue Site Visit and Tasting",
+      "people_involved": ["Alex", "Sam"],
+      "date": "Saturday, March 18th",
+      "location": "The Oakside Vineyard",
+      "source_sentence": "Yes, they finally replied this morning! They confirmed they can have us for a full site visit and tasting on Saturday, March 18th at 11 AM, which should be perfect."
+    },
+    {
+      "event_name": "Wedding Date",
+      "people_involved": ["Alex", "Sam"],
+      "date": "September 22nd",
+      "location": "The Oakside Vineyard",
+      "source_sentence": "Anyway, regarding the venue, if we end up liking it, we must send the deposit within 48 hours to officially hold our September 22nd wedding date."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send deposit",
+      "people_involved": ["Alex", "Sam"],
+      "date": "March 20th",
+      "location": "N/A",
+      "source_sentence": "Anyway, regarding the venue, if we end up liking it, we must send the deposit within 48 hours to officially hold our September 22nd wedding date."
+    },
+    {
+      "action_name": "Meet the caterer (preliminary tasting)",
+      "people_involved": ["Alex"],
+      "date": "March 10th",
+      "location": "N/A",
+      "source_sentence": "Right, that's a tight turnaround. Just so we keep our options open, I'm also still meeting the caterer for a preliminary tasting on March 10th."
+    }
+  ]
+}
+
+6. Scheduling a Doctor's Appointment
+Receptionist: Dr. Chen's office, this is Maria speaking, how can I help you today?
+Patient: Hi Maria, I need to schedule my annual check-up with Dr. Chen, and I also wanted to mention that my seasonal allergies have been terrible this week, way worse than usual.
+
+Receptionist: Oh, I'm so sorry to hear that; the pollen count has been extremely high, according to the news. My son has been suffering quite a bit, too, so you are not alone.
+Patient: It's just awful, I can barely focus. Okay, so, I really need to get in for that appointment soon.
+Receptionist: Of course, let me check the doctor's schedule... his next available opening is Tuesday, January 16th at 10:30 AM. Would that time work for you?
+Patient: Yes, that's perfect, I'll take it. I have to remember to put that in my work calendar immediately, because I completely forgot my dentist appointment last month and it was so embarrassing.
+Receptionist: Oh, that's the worst feeling, isn't it? I'm glad we found a spot for you.
+Patient: Me too. I also need to get my blood work done before the appointment, as Dr. Chen always requests.
+Receptionist: No problem at all; you can come in for that anytime during the week of January 8th. Just walk into the lab before 4 PM, no appointment necessary.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Annual Check-up",
+      "people_involved": ["Patient", "Dr. Chen"],
+      "date": "January 16th, 10:30 AM",
+      "location": "Dr. Chen's Office",
+      "source_sentence": "Of course, let me check the doctor's schedule... his next available opening is Tuesday, January 16th at 10:30 AM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Get blood work done",
+      "people_involved": ["Patient"],
+      "date": "January 8th",
+      "location": "Lab",
+      "source_sentence": "No problem at all; you can come in for that anytime during the week of January 8th."
+    }
+  ]
+}
+
+7. Coordinating a Move
+Maria: I just got off the phone with the new landlord, and the official lease signing for the new apartment is formally set for June 28th at their office.
+Tom: Okay, that's great news. That means we should probably book the movers for July 1st, which is that following Saturday, to give us a day to clean.
+Maria: I completely agree, so I'll call the moving company today to get that locked in. I am going to need so much coffee that entire week just to function.
+Tom: You and me both; I'll make sure to pick up an extra bag of the good espresso beans when I'm at the store. By the way, did you ever finish watching the new season of The Crown?
+Maria: Not yet, I'm only on episode three, so please don't tell me what happens with the fire!
+Tom: Okay, okay, my lips are sealed. Now, can you handle the utilities transfer?
+Maria: Yep, I'm on it. We need the power and, most importantly, the internet to be activated at the new place on June 30th, which is the day before we move all the heavy furniture.
+Tom: I'll schedule the internet installation for that Friday afternoon, though I really hope it's not that 'Super-link' company, as their service is notoriously unreliable.
+Maria: I already checked, and I'm afraid it is. They're the only provider for that specific building, so we're stuck with them.
+Tom: Ugh. That's just great.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Apartment Lease Signing",
+      "people_involved": ["Maria", "Landlord"],
+      "date": "June 28th",
+      "location": "Landlord's Office",
+      "source_sentence": "I just got off the phone with the new landlord, and the official lease signing for the new apartment is formally set for June 28th at their office."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Book the movers",
+      "people_involved": ["Maria"],
+      "date": "July 1st",
+      "location": "N/A",
+      "source_sentence": "Okay, that's great news. That means we should probably book the movers for July 1st, which is that following Saturday, to give us a day to clean."
+    },
+    {
+      "action_name": "Handle utilities transfer (activate power/internet)",
+      "people_involved": ["Maria"],
+      "date": "June 30th",
+      "location": "New Apartment",
+      "source_sentence": "Yep, I'm on it. We need the power and, most importantly, the internet to be activated at the new place on June 30th, which is the day before we move all the heavy furniture."
+    },
+    {
+      "action_name": "Schedule internet installation",
+      "people_involved": ["Tom"],
+      "date": "Friday, June 30th",
+      "location": "New Apartment",
+      "source_sentence": "I'll schedule the internet installation for that Friday afternoon, though I really hope it's not that 'Super-link' company, as their service is notoriously unreliable."
+    }
+  ]
+}
+
+8. Organizing a Company Charity Event
+Kenji: Hey Lisa, I was just wondering if you are going to be organizing the company team for the Community 5K Run again this year, as I know you've handled it in the past.
+Lisa: I am! I just got the email confirmation. The event itself is on Saturday, August 12th, and I need to register our official team by July 15th if we want to get the early-bird registration rate.
+Kenji: Oh, isn't August 12th the same weekend as that big downtown street fair with all the food trucks?
+Lisa: Oh, you might be right! Well, I guess we'll just have to go to the street fair after the run. Anyway, what do you need from me for the registration?
+Kenji: I'm good for now, just wanted to check.
+Lisa: Okay, although I'm a bit distracted because my new dog just chewed up my favorite pair of running shoes this morning, which is just terrible timing.
+Kenji: Oh no, that's the worst!
+Lisa: Tell me about it. Okay, so my next step is to set up the team donation page, which I'll do by Monday. Can you then email the sign-up link to the whole department? We also need to order the team t-shirts by July 20th at the latest to get them printed in time.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Community 5K Run",
+      "people_involved": ["Lisa", "Kenji", "Company Team"],
+      "date": "August 12th",
+      "location": "N/A",
+      "source_sentence": "I am! I just got the email confirmation. The event itself is on Saturday, August 12th..."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Register official team",
+      "people_involved": ["Lisa"],
+      "date": "July 15th",
+      "location": "N/A",
+      "source_sentence": "...and I need to register our official team by July 15th if we want to get the early-bird registration rate."
+    },
+    {
+      "action_name": "Set up team donation page",
+      "people_involved": ["Lisa"],
+      "date": "Monday",
+      "location": "N/A",
+      "source_sentence": "Okay, so my next step is to set up the team donation page, which I'll do by Monday."
+    },
+    {
+      "action_name": "Email sign-up link",
+      "people_involved": ["Kenji"],
+      "date": "N/A",
+      "location": "N/A",
+      "source_sentence": "Can you then email the sign-up link to the whole department?"
+    },
+    {
+      "action_name": "Order team t-shirts",
+      "people_involved": ["Lisa"],
+      "date": "July 20th",
+      "location": "N/A",
+      "source_sentence": "We also need to order the team t-shirts by July 20th at the latest to get them printed in time."
+    }
+  ]
+}
+
+9. Home Renovation Timeline
+Contractor: Alright, I've reviewed the schedule, and we are currently on track to start the demolition for your big kitchen remodel on Monday, February 6th, just as we planned.
+Homeowner: Okay, that's good to hear. The dust from that is going to be intense, isn't it? I'm worried about it getting into the living room.
+Contractor: We will absolutely seal off the area with plastic sheeting as best we can, but honestly, some dust is unavoidable in a project this size. Speaking of which, did you see the game last night?
+Homeowner: No, I missed it! I was out at my sister's place. Did they actually win for a change?
+
+Contractor: They blew a 10-point lead in the fourth quarter; it was honestly painful to watch. Okay, so, back to the kitchen: the cabinets are set to be delivered on February 20th, and we'll install them that same week.
+Homeowner: And what about the countertops we picked out?
+Contractor: The countertop installation, which requires templating after the cabinets are in, will happen around March 1st.
+Homeowner: So, does that mean we should realistically be able to use the kitchen again by the end of March?
+Contractor: That is the plan, yes. I'll get you back to cooking soon, I promise.
+Homeowner: Thank goodness, because I am getting so incredibly tired of eating takeout every single night; I think I've single-handedly kept that new pizza place in business.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Kitchen Remodel Demolition",
+      "people_involved": ["Contractor", "Homeowner"],
+      "date": "February 6th",
+      "location": "Homeowner's Kitchen",
+      "source_sentence": "Alright, I've reviewed the schedule, and we are currently on track to start the demolition for your big kitchen remodel on Monday, February 6th, just as we planned."
+    },
+    {
+      "event_name": "Cabinet Delivery",
+      "people_involved": ["Contractor"],
+      "date": "February 20th",
+      "location": "Homeowner's Kitchen",
+      "source_sentence": "Okay, so, back to the kitchen: the cabinets are set to be delivered on February 20th, and we'll install them that same week."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Cabinet Installation",
+      "people_involved": ["Contractor"],
+      "date": "Week of February 20th",
+      "location": "Homeowner's Kitchen",
+      "source_sentence": "Okay, so, back to the kitchen: the cabinets are set to be delivered on February 20th, and we'll install them that same week."
+    },
+    {
+      "action_name": "Countertop Installation",
+      "people_involved": ["Contractor"],
+      "date": "around March 1st",
+      "location": "Homeowner's Kitchen",
+      "source_sentence": "The countertop installation, which requires templating after the cabinets are in, will happen around March 1st."
+    }
+  ]
+}
+
+10. Planning a Book Club Meeting
+Rachel: Hi everyone! I was just looking at the calendar, and since the first Thursday of December is the 7th, I wanted to ask if everyone is still good to meet then to discuss The Midnight Library?
+Brian: That date works perfectly for me. Are we still planning on it being at your place, Rachel, or should we find a new spot?
+Rachel: Yes, I'll host at 7 PM on December 7th, as usual. I'm also planning to try out a new, very complicated brownie recipe I found online, so fingers crossed they actually turn out.
+Sarah: Ooh, exciting, I'll be the judge of that! I'll bring that pretzel dip everyone liked last time. I do need to finish the last 50 pages of the book, though, so I'll make a note to do that by November 30th so I don't forget the details.
+Brian: You're almost done? I'm only halfway through! My cat has developed this new habit of sitting directly on the book every single time I try to read.
+Sarah: That's actually hilarious; my cat just yells at me for food constantly, which is its own special distraction.
+Rachel: Well, you both still have plenty of time to finish. And Brian, please come prepared with some good suggestions for our January book, since it's your turn to pick.
+Brian: Will do, I'm already making a list.
+JSON
+{
+  "events": [
+    {
+      "event_name": "Book Club Meeting",
+      "people_involved": ["Rachel", "Brian", "Sarah"],
+      "date": "December 7th",
+      "location": "Rachel's place",
+      "source_sentence": "Yes, I'll host at 7 PM on December 7th, as usual."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Discuss 'The Midnight Library'",
+      "people_involved": ["Rachel", "Brian", "Sarah"],
+      "date": "December 7th",
+      "location": "Rachel's place",
+      "source_sentence": "Hi everyone! I was just looking at the calendar, and since the first Thursday of December is the 7th, I wanted to ask if everyone is still good to meet then to discuss 'The Midnight Library'?"
+    },
+    {
+      "action_name": "Finish the book",
+      "people_involved": ["Sarah"],
+      "date": "November 30th",
+      "location": "N/A",
+      "source_sentence": "I do need to finish the last 50 pages of the book, though, so I'll make a note to do that by November 30th so I don't forget the details."
+    },
+    {
+      "action_name": "Prepare suggestions for January book",
+      "people_involved": ["Brian"],
+      "date": "December 7th",
+      "location": "N/A",
+      "source_sentence": "And Brian, please come prepared with some good suggestions for our January book, since it's your turn to pick."
+    }
+  ]
+}
+
+1. Planning a Team Offsite
+Ravi: Okay, for the annual team offsite, I'm thinking the first week of March. Does March 6th and 7th work for everyone?
+
+Chloe: That should be fine for me. Are we still thinking about the Lakeside Retreat Center? My car's making a weird noise, I really hope it's not the transmission.
+
+Ravi: I know the feeling, that's the worst. Yes, I got the quote from Lakeside. I need to confirm the booking with our deposit by this coming Friday, November 21st, or we lose the slot.
+
+Chloe: Oh, that's soon. I'll send out the itinerary poll today so we can finalize activities. Can you handle the catering order?
+
+Ravi: Yep. I'll get the dietary restrictions from HR and place the order with their in-house caterer by February 15th. I'm so ready for this, I need a break.
+
+Chloe: Me too. I've been watching that new space documentary, it's amazing how big everything is. Makes this project feel small.
+
+Ravi: Haha, true. Okay, let's get this booked.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Annual Team Offsite",
+      "people_involved": ["Ravi", "Chloe", "Team"],
+      "date": "March 6th and 7th",
+      "location": "Lakeside Retreat Center",
+      "source_sentence": "Okay, for the annual team offsite, I'm thinking the first week of March. Does March 6th and 7th work for everyone?"
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Confirm the booking",
+      "people_involved": ["Ravi"],
+      "date": "November 21st",
+      "location": "Lakeside Retreat Center",
+      "source_sentence": "I need to confirm the booking with our deposit by this coming Friday, November 21st, or we lose the slot."
+    },
+    {
+      "action_name": "Send out itinerary poll",
+      "people_involved": ["Chloe"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll send out the itinerary poll today so we can finalize activities."
+    },
+    {
+      "action_name": "Place the catering order",
+      "people_involved": ["Ravi"],
+      "date": "by February 15th",
+      "location": "N/A",
+      "source_sentence": "I'll get the dietary restrictions from HR and place the order with their in-house caterer by February 15th."
+    }
+  ]
+}
+2. University Group Project
+Ben: Hey, Professor Davies just posted the deadline for our History 201 final paper. It's due December 12th.
+
+Sarah: Okay, that gives us less than a month. We really need to meet. How about this Monday, November 17th, at 6 PM in the library cafe?
+
+Ben: Works for me. I can't believe it's almost the end of the semester. I still haven't bought my train ticket home for Christmas.
+
+Sarah: You should do that soon, they get so expensive. Okay, so for Monday, I'll draft the outline and find the primary sources for the first section.
+
+Ben: Great. I will gather the secondary sources and write the introduction to bring to the meeting. We need to submit the final topic to him by November 24th anyway.
+
+Sarah: Perfect. My laptop's been so slow, I might need to use the library computers.
+
+Ben: Good idea. See you Monday.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "History 201 Final Paper Deadline",
+      "people_involved": ["Ben", "Sarah", "Professor Davies"],
+      "date": "December 12th",
+      "location": "N/A",
+      "source_sentence": "Hey, Professor Davies just posted the deadline for our History 201 final paper. It's due December 12th."
+    },
+    {
+      "event_name": "Group Project Meeting",
+      "people_involved": ["Ben", "Sarah"],
+      "date": "November 17th, 6 PM",
+      "location": "Library Cafe",
+      "source_sentence": "We really need to meet. How about this Monday, November 17th, at 6 PM in the library cafe?"
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Draft the outline & find primary sources",
+      "people_involved": ["Sarah"],
+      "date": "by November 17th",
+      "location": "N/A",
+      "source_sentence": "Okay, so for Monday, I'll draft the outline and find the primary sources for the first section."
+    },
+    {
+      "action_name": "Gather secondary sources & write introduction",
+      "people_involved": ["Ben"],
+      "date": "by November 17th",
+      "location": "N/A",
+      "source_sentence": "Great. I will gather the secondary sources and write the introduction to bring to the meeting."
+    },
+    {
+      "action_name": "Submit the final topic",
+      "people_involved": ["Ben", "Sarah"],
+      "date": "by November 24th",
+      "location": "N/A",
+      "source_sentence": "We need to submit the final topic to him by November 24th anyway."
+    }
+  ]
+}
+3. Doctor's Follow-up
+Mark: Hi, I'm calling to schedule a follow-up appointment with Dr. Evans. I had surgery on October 30th.
+
+Receptionist: Of course, let me pull up your file. Yes, Dr. Evans wanted to see you for your six-week post-op checkup. How does Friday, December 12th at 10 AM sound?
+
+Mark: That's perfect. Also, I need to refill my prescription before then. Can I do that now?
+
+Receptionist: The doctor will need to approve that. I'll send her the request today, and she should review it by end of day Monday, November 17th. We'll call you back if there's an issue.
+
+Mark: Great. The weather is finally getting cold, isn't it?
+
+Receptionist: It really is! I had to find my heavy coat this morning. Okay, so we have you down for December 12th at 10 AM at our downtown clinic.
+
+Mark: Thank you so much.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Mark's Surgery",
+      "people_involved": ["Mark", "Dr. Evans"],
+      "date": "October 30th",
+      "location": "N/A",
+      "source_sentence": "Hi, I'm calling to schedule a follow-up appointment with Dr. Evans. I had surgery on October 30th."
+    },
+    {
+      "event_name": "Six-week post-op checkup",
+      "people_involved": ["Mark", "Dr. Evans"],
+      "date": "Friday, December 12th, 10 AM",
+      "location": "Downtown Clinic",
+      "source_sentence": "How does Friday, December 12th at 10 AM sound?"
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Schedule a follow-up appointment",
+      "people_involved": ["Mark"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Hi, I'm calling to schedule a follow-up appointment with Dr. Evans."
+    },
+    {
+      "action_name": "Refill prescription",
+      "people_involved": ["Mark"],
+      "date": "before December 12th",
+      "location": "N/A",
+      "source_sentence": "Also, I need to refill my prescription before then."
+    },
+    {
+      "action_name": "Send prescription request to doctor",
+      "people_involved": ["Receptionist"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll send her the request today, and she should review it by end of day Monday, November 17th."
+    }
+  ]
+}
+4. Family Reunion Planning
+Susan: Hi David! I'm starting to plan the Johnson Family Reunion for next summer. I'm thinking Saturday, July 18th.
+
+David: Wow, already! That's great, Susan. Is Green Valley Park still the plan?
+
+Susan: Yes, I'm going to reserve the main picnic area next week. The park office starts taking 2026 reservations on December 1st. I'm also so tired of my phone, I think I'm going to get a new one this weekend.
+
+David: Good luck with that, the sales are crazy. So, what do you need from me for the reunion?
+
+Susan: I need you to manage the communications. Can you set up the Facebook group and send out a save-the-date email by January 10th?
+
+David: Absolutely. I'll also create a spreadsheet to track RSVPs and potluck dishes.
+
+Susan: You're a lifesaver. I'll handle the t-shirt order and get the deposit to the park by the deadline.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Johnson Family Reunion",
+      "people_involved": ["Susan", "David", "Johnson Family"],
+      "date": "Saturday, July 18th",
+      "location": "Green Valley Park",
+      "source_sentence": "I'm starting to plan the Johnson Family Reunion for next summer. I'm thinking Saturday, July 18th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Reserve the main picnic area",
+      "people_involved": ["Susan"],
+      "date": "on December 1st",
+      "location": "Green Valley Park",
+      "source_sentence": "The park office starts taking 2026 reservations on December 1st."
+    },
+    {
+      "action_name": "Set up Facebook group & send save-the-date",
+      "people_involved": ["David"],
+      "date": "by January 10th",
+      "location": "N/A",
+      "source_sentence": "Can you set up the Facebook group and send out a save-the-date email by January 10th?"
+    },
+    {
+      "action_name": "Create RSVP spreadsheet",
+      "people_involved": ["David"],
+      "date": "N/A",
+      "location": "N/A",
+      "source_sentence": "I'll also create a spreadsheet to track RSVPs and potluck dishes."
+    },
+    {
+      "action_name": "Handle t-shirt order",
+      "people_involved": ["Susan"],
+      "date": "N/A",
+      "location": "N/A",
+      "source_sentence": "I'll handle the t-shirt order and get the deposit to the park by the deadline."
+    }
+  ]
+}
+5. Car Repair Scheduling
+Mechanic: Hi, this is City Auto Repair, how can I help?
+
+Jessica: Hi, my check engine light just came on. I'm also hearing a rattling noise. My husband thinks it's the catalytic converter.
+
+Mechanic: That's possible, but we'd need to run a diagnostic to be sure. We can schedule an inspection for you. Our next opening is Tuesday, November 18th at 2 PM.
+
+Jessica: That works. How long does that take? I have to pick up my son from soccer practice at 4 PM.
+
+Mechanic: The diagnostic itself takes about an hour. If it's a simple fix, we might be able to do it right then. If it needs parts, we'll give you a quote and schedule the full repair for another day, likely November 19th or 20th.
+
+Jessica: Okay, let's do the inspection on November 18th at 2 PM. I just hope this isn't expensive, we just paid for new tires.
+
+Mechanic: I understand. We'll see you on Tuesday.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Car Inspection / Diagnostic",
+      "people_involved": ["Jessica", "Mechanic"],
+      "date": "Tuesday, November 18th, 2 PM",
+      "location": "City Auto Repair",
+      "source_sentence": "Our next opening is Tuesday, November 18th at 2 PM."
+    },
+    {
+      "event_name": "Potential Full Repair",
+      "people_involved": ["Jessica", "Mechanic"],
+      "date": "November 19th or 20th",
+      "location": "City Auto Repair",
+      "source_sentence": "If it needs parts, we'll give you a quote and schedule the full repair for another day, likely November 19th or 20th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Run a diagnostic",
+      "people_involved": ["Mechanic"],
+      "date": "November 18th",
+      "location": "City Auto Repair",
+      "source_sentence": "That's possible, but we'd need to run a diagnostic to be sure."
+    },
+    {
+      "action_name": "Give a quote",
+      "people_involved": ["Mechanic"],
+      "date": "November 18th",
+      "location": "City Auto Repair",
+      "source_sentence": "If it needs parts, we'll give you a quote and schedule the full repair for another day, likely November 19th or 20th."
+    }
+  ]
+}
+6. Product Launch Marketing Plan
+Maria: Alright team, the 'Phoenix' product launch is officially set for January 15th. We need to finalize the marketing plan.
+
+Tom: Okay. I've already drafted the press release. I need final approval from legal by December 1st so we can distribute it to our media partners on January 10th.
+
+Maria: Perfect. Sarah, what about the social media campaign?
+
+Sarah: I'm filming the video assets next week, from November 17th-21st. I've also booked the influencers, and their content will go live on launch day, January 15th. I'm so tired, I was up all night, my neighbor's dog would not stop barking.
+
+Tom: Oh, that's the worst. You should get one of those white noise machines.
+
+Maria: Good idea. Okay, Tom, please also confirm the ad buy for the first week of launch by EOD tomorrow.
+
+Tom: Will do.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "'Phoenix' Product Launch",
+      "people_involved": ["Maria", "Tom", "Sarah", "Legal"],
+      "date": "January 15th",
+      "location": "N/A",
+      "source_sentence": "Alright team, the 'Phoenix' product launch is officially set for January 15th."
+    },
+    {
+      "event_name": "Influencer Content Live",
+      "people_involved": ["Sarah", "Influencers"],
+      "date": "January 15th",
+      "location": "N/A",
+      "source_sentence": "I've also booked the influencers, and their content will go live on launch day, January 15th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Get final approval from legal",
+      "people_involved": ["Tom", "Legal"],
+      "date": "by December 1st",
+      "location": "N/A",
+      "source_sentence": "I need final approval from legal by December 1st so we can distribute it to our media partners on January 10th."
+    },
+    {
+      "action_name": "Distribute press release",
+      "people_involved": ["Tom"],
+      "date": "January 10th",
+      "location": "N/A",
+      "source_sentence": "I need final approval from legal by December 1st so we can distribute it to our media partners on January 10th."
+    },
+    {
+      "action_name": "Filming video assets",
+      "people_involved": ["Sarah"],
+      "date": "November 17th-21st",
+      "location": "N/A",
+      "source_sentence": "I'm filming the video assets next week, from November 17th-21st."
+    },
+    {
+      "action_name": "Confirm the ad buy",
+      "people_involved": ["Tom"],
+      "date": "by November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "Okay, Tom, please also confirm the ad buy for the first week of launch by EOD tomorrow."
+    }
+  ]
+}
+7. Community Garden Planning
+Linda: Hi everyone, thanks for coming to the first meeting for the Oakwood Community Garden.
+
+Mike: Of course, Linda. I'm really excited. Did you hear back from the city about the land?
+
+Linda: Yes! They approved our application for the lot on Elm Street. We get access starting March 1st. First, we have a volunteer cleanup day scheduled for Saturday, March 4th.
+
+Mike: Great. I can bring my wheelbarrow. That new pizza place down the street is amazing, by the way, we should order from there for the cleanup.
+
+Linda: Good idea! I need to submit the grant application for the tool shed and fencing by December 31st. Mike, can you set up the plot lottery and email all applicants by February 1st?
+
+Mike: You got it. I'll create the online sign-up sheet this weekend.
+
+Linda: Fantastic. And I'll order the seeds in bulk by January 20th.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Oakwood Community Garden Access",
+      "people_involved": ["Linda", "Mike", "City"],
+      "date": "March 1st",
+      "location": "Lot on Elm Street",
+      "source_sentence": "We get access starting March 1st."
+    },
+    {
+      "event_name": "Volunteer Cleanup Day",
+      "people_involved": ["Linda", "Mike", "Volunteers"],
+      "date": "Saturday, March 4th",
+      "location": "Lot on Elm Street",
+      "source_sentence": "First, we have a volunteer cleanup day scheduled for Saturday, March 4th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Submit grant application",
+      "people_involved": ["Linda"],
+      "date": "by December 31st",
+      "location": "N/A",
+      "source_sentence": "I need to submit the grant application for the tool shed and fencing by December 31st."
+    },
+    {
+      "action_name": "Set up plot lottery & email applicants",
+      "people_involved": ["Mike"],
+      "date": "by February 1st",
+      "location": "N/A",
+      "source_sentence": "Mike, can you set up the plot lottery and email all applicants by February 1st?"
+    },
+    {
+      "action_name": "Create online sign-up sheet",
+      "people_involved": ["Mike"],
+      "date": "by November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll create the online sign-up sheet this weekend."
+    },
+    {
+      "action_name": "Order seeds in bulk",
+      "people_involved": ["Linda"],
+      "date": "by January 20th",
+      "location": "N/A",
+      "source_sentence": "And I'll order the seeds in bulk by January 20th."
+    }
+  ]
+}
+8. Moving Company Coordination
+Alex: Hi, I'm calling to confirm my move for Saturday, December 6th. The name is Alex Smith.
+
+Mover: Yes, Mr. Smith. I have you down. We're scheduled to arrive at your 123 Main Street address between 8 AM and 9 AM on December 6th. The truck is reserved for the full day.
+
+Alex: Perfect. I'm just worried because my building requires a certificate of insurance. I sent the request to your office last week.
+
+Mover: I see that request here. Our insurance team will process that and email the certificate to your building management by December 1st at the latest.
+
+Alex: Thank you, that's a huge relief. I am so stressed about this move. I've just been binge-watching cooking shows to relax.
+
+Mover: I get that, moving is stressful. Just make sure you have everything boxed and ready for pickup before our 8 AM arrival.
+
+Alex: Will do. Thanks for your help.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Alex's Move",
+      "people_involved": ["Alex", "Mover"],
+      "date": "Saturday, December 6th",
+      "location": "123 Main Street",
+      "source_sentence": "Hi, I'm calling to confirm my move for Saturday, December 6th."
+    },
+    {
+      "event_name": "Movers Arrive",
+      "people_involved": ["Mover"],
+      "date": "December 6th, 8 AM - 9 AM",
+      "location": "123 Main Street",
+      "source_sentence": "We're scheduled to arrive at your 123 Main Street address between 8 AM and 9 AM on December 6th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send certificate of insurance",
+      "people_involved": ["Mover's Insurance Team"],
+      "date": "by December 1st",
+      "location": "N/A",
+      "source_sentence": "Our insurance team will process that and email the certificate to your building management by December 1st at the latest."
+    },
+    {
+      "action_name": "Have everything boxed",
+      "people_involved": ["Alex"],
+      "date": "before December 6th, 8 AM",
+      "location": "123 Main Street",
+      "source_sentence": "Just make sure you have everything boxed and ready for pickup before our 8 AM arrival."
+    }
+  ]
+}
+9. Conference Presentation Prep
+Dr. Lee: Hi Kenji, I'm just reviewing our abstract for the Innovate_AI Conference in Tokyo. Our presentation slot is confirmed for April 10th at 3 PM.
+
+Kenji: That's great news, Doctor. I'm a bit nervous, I've never been to Tokyo. I've been trying to learn some basic Japanese phrases.
+
+Dr. Lee: It's a wonderful city. Now, we need to submit our final paper for the proceedings by January 31st. I'm still working on the methodology section.
+
+Kenji: Okay. I will run the final experiments and generate the new graphs by December 20th so you have them for the paper.
+
+Dr. Lee: Excellent. After the paper is submitted, we'll need to create the slide deck. I'll book our flights and hotel for April 8th through April 12th once the paper is in.
+
+Kenji: Sounds like a plan. I'll get those experiments running this afternoon.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Innovate_AI Conference Presentation",
+      "people_involved": ["Dr. Lee", "Kenji"],
+      "date": "April 10th, 3 PM",
+      "location": "Tokyo",
+      "source_sentence": "Our presentation slot is confirmed for April 10th at 3 PM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Submit final paper",
+      "people_involved": ["Dr. Lee", "Kenji"],
+      "date": "by January 31st",
+      "location": "N/A",
+      "source_sentence": "Now, we need to submit our final paper for the proceedings by January 31st."
+    },
+    {
+      "action_name": "Run final experiments & generate graphs",
+      "people_involved": ["Kenji"],
+      "date": "by December 20th",
+      "location": "N/A",
+      "source_sentence": "I will run the final experiments and generate the new graphs by December 20th so you have them for the paper."
+    },
+    {
+      "action_name": "Create the slide deck",
+      "people_involved": ["Dr. Lee", "Kenji"],
+      "date": "after January 31st",
+      "location": "N/A",
+      "source_sentence": "After the paper is submitted, we'll need to create the slide deck."
+    },
+    {
+      "action_name": "Book flights and hotel",
+      "people_involved": ["Dr. Lee"],
+      "date": "after January 31st",
+      "location": "N/A",
+      "source_sentence": "I'll book our flights and hotel for April 8th through April 12th once the paper is in."
+    }
+  ]
+}
+10. Scheduling a Job Interview
+Recruiter: Hi, this is Emily from TechCorp. We were very impressed with your application and would like to schedule a virtual interview with the hiring manager, Mr. Chen.
+
+Applicant: That's wonderful news! Thank you. I'm definitely available.
+
+Recruiter: Great. Mr. Chen is available next week. Would Wednesday, November 19th at 11 AM or Thursday, November 20th at 1 PM work for you?
+
+Applicant: Thursday, November 20th at 1 PM is perfect. I just got a new suit for interviews, so this is great timing.
+
+Recruiter: Excellent. I will send a calendar invitation with the video link shortly. The interview will be about 45 minutes. Please be prepared to discuss your portfolio.
+
+Applicant: Sounds good. I'll review my portfolio and prepare my examples before Thursday.
+
+Recruiter: We look forward to speaking with you then.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Virtual Interview",
+      "people_involved": ["Applicant", "Mr. Chen", "Recruiter"],
+      "date": "Thursday, November 20th, 1 PM",
+      "location": "Virtual (Video Link)",
+      "source_sentence": "Thursday, November 20th at 1 PM is perfect."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send calendar invitation with video link",
+      "people_involved": ["Recruiter"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I will send a calendar invitation with the video link shortly."
+    },
+    {
+      "action_name": "Review portfolio and prepare examples",
+      "people_involved": ["Applicant"],
+      "date": "before November 20th",
+      "location": "N/A",
+      "source_sentence": "I'll review my portfolio and prepare my examples before Thursday."
+    }
+  ]
+}
+11. Website Redesign Project
+Freya: Okay, website redesign kickoff. We are still aiming for a launch date of February 1st, right?
+
+Carlos: That's the goal. To hit that, I need the final wireframes from your design team by December 1st. My developers are just sitting around, I think they're learning to bake bread or something.
+
+Freya: Haha, I've seen the loaves. Don't worry, you'll get them. I'm presenting the mockups to the client for final approval on November 25th.
+
+Carlos: Perfect. Once I have the approved wireframes on December 1st, my team will start the development sprint. That sprint will run until January 15th.
+
+Freya: That leaves two weeks for QA and bug fixing. I'll write the user testing scripts and schedule the testers for the week of January 19th.
+
+Carlos: It's tight, but it's doable. Let's make it happen.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Website Redesign Launch",
+      "people_involved": ["Freya", "Carlos", "Client", "Developers"],
+      "date": "February 1st",
+      "location": "N/A",
+      "source_sentence": "Okay, website redesign kickoff. We are still aiming for a launch date of February 1st, right?"
+    },
+    {
+      "event_name": "Client Mockup Presentation",
+      "people_involved": ["Freya", "Client"],
+      "date": "November 25th",
+      "location": "N/A",
+      "source_sentence": "I'm presenting the mockups to the client for final approval on November 25th."
+    },
+    {
+      "event_name": "Development Sprint",
+      "people_involved": ["Carlos", "Developers"],
+      "date": "December 1st - January 15th",
+      "location": "N/A",
+      "source_sentence": "That sprint will run until January 15th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Deliver final wireframes",
+      "people_involved": ["Freya's design team"],
+      "date": "by December 1st",
+      "location": "N/A",
+      "source_sentence": "To hit that, I need the final wireframes from your design team by December 1st."
+    },
+    {
+      "action_name": "Write user testing scripts & schedule testers",
+      "people_involved": ["Freya"],
+      "date": "for the week of January 19th",
+      "location": "N/A",
+      "source_sentence": "I'll write the user testing scripts and schedule the testers for the week of January 19th."
+    }
+  ]
+}
+12. Planning a Hiking Trip
+Jake: Hey Maya, are we still on for the hiking trip to Bear Mountain?
+
+Maya: Yes! I'm so excited. I was thinking we go on Saturday, November 29th. The forecast looks clear.
+
+Jake: Perfect. I'll drive. I can pick you up at 7 AM. I just got my car detailed, it's so clean.
+
+Maya: Ooh, nice. My dog shed so much in my car, it's a disaster. Okay, 7 AM works. I will pack sandwiches and snacks for both of us.
+
+Jake: You're the best. I will bring the navigation gear and a first-aid kit. We need to buy our park passes online before we go.
+
+Maya: Oh, good call. I'll buy my pass tonight when I get home. We should be back by 6 PM, right?
+
+Jake: Yep, that's the plan.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Hiking Trip",
+      "people_involved": ["Jake", "Maya"],
+      "date": "Saturday, November 29th",
+      "location": "Bear Mountain",
+      "source_sentence": "I was thinking we go on Saturday, November 29th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Drive",
+      "people_involved": ["Jake"],
+      "date": "November 29th, 7 AM",
+      "location": "N/A",
+      "source_sentence": "I'll drive. I can pick you up at 7 AM."
+    },
+    {
+      "action_name": "Pack sandwiches and snacks",
+      "people_involved": ["Maya"],
+      "date": "before November 29th",
+      "location": "N/A",
+      "source_sentence": "I will pack sandwiches and snacks for both of us."
+    },
+    {
+      "action_name": "Bring navigation gear and first-aid kit",
+      "people_involved": ["Jake"],
+      "date": "November 29th",
+      "location": "N/A",
+      "source_sentence": "I will bring the navigation gear and a first-aid kit."
+    },
+    {
+      "action_name": "Buy park pass",
+      "people_involved": ["Maya"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll buy my pass tonight when I get home."
+    }
+  ]
+}
+13. Quarterly Budget Review
+Finance Head: Good morning. This meeting is our Q4 Budget Review. As you know, all final 2026 budget proposals are due to me by December 5th.
+
+Marketing Manager: Understood. My team is just finalizing our numbers. I've been trying to find a good new hire, but the market is so competitive.
+
+Finance Head: I'm hearing that a lot. Just make sure your proposal is solid. I will be reviewing all submissions from December 8th to 12th.
+
+IT Manager: Will we get feedback before the holiday break?
+
+Finance Head: Yes. I will schedule individual 30-minute meetings with each of you during the week of December 15th to discuss any necessary adjustments. The final, locked budget will be presented to the CEO on January 5th.
+
+Marketing Manager: Okay, that's a clear timeline. I'll get my proposal submitted by December 5th.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Q4 Budget Review Meeting",
+      "people_involved": ["Finance Head", "Marketing Manager", "IT Manager"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Good morning. This meeting is our Q4 Budget Review."
+    },
+    {
+      "event_name": "Budget Review Period",
+      "people_involved": ["Finance Head"],
+      "date": "December 8th - 12th",
+      "location": "N/A",
+      "source_sentence": "I will be reviewing all submissions from December 8th to 12th."
+    },
+    {
+      "event_name": "Individual Adjustment Meetings",
+      "people_involved": ["Finance Head", "Managers"],
+      "date": "Week of December 15th",
+      "location": "N/A",
+      "source_sentence": "I will schedule individual 30-minute meetings with each of you during the week of December 15th to discuss any necessary adjustments."
+    },
+    {
+      "event_name": "Final Budget Presentation to CEO",
+      "people_involved": ["Finance Head", "CEO"],
+      "date": "January 5th",
+      "location": "N/A",
+      "source_sentence": "The final, locked budget will be presented to the CEO on January 5th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Submit final 2026 budget proposals",
+      "people_involved": ["Marketing Manager", "IT Manager"],
+      "date": "by December 5th",
+      "location": "N/A",
+      "source_sentence": "As you know, all final 2026 budget proposals are due to me by December 5th."
+    }
+  ]
+}
+14. Dentist Appointment
+Receptionist: Dr. Silva's dental office, how can I help?
+
+Patient: Hi, I'd like to schedule a cleaning. My name is Tom Johnson.
+
+Receptionist: Hi Tom. Let's see... it looks like you're due. Our next available slot is with our hygienist, Maria, on Tuesday, December 9th at 3 PM.
+
+Patient: That's perfect. I'm also having some sensitivity on my back tooth.
+
+Receptionist: I'll make a note of that. After your cleaning with Maria on the 9th, I'll have Dr. Silva come in to do a quick check-up on that tooth. If it needs a filling, we'll schedule you for a follow-up appointment.
+
+Patient: Great. I just got new insurance, I'll email you the card this afternoon.
+
+Receptionist: Wonderful. We'll see you on December 9th.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Dental Cleaning",
+      "people_involved": ["Tom Johnson", "Maria (hygienist)"],
+      "date": "Tuesday, December 9th, 3 PM",
+      "location": "Dr. Silva's dental office",
+      "source_sentence": "Our next available slot is with our hygienist, Maria, on Tuesday, December 9th at 3 PM."
+    },
+    {
+      "event_name": "Dental Check-up",
+      "people_involved": ["Tom Johnson", "Dr. Silva"],
+      "date": "December 9th",
+      "location": "Dr. Silva's dental office",
+      "source_sentence": "After your cleaning with Maria on the 9th, I'll have Dr. Silva come in to do a quick check-up on that tooth."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Schedule a cleaning",
+      "people_involved": ["Tom Johnson"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Hi, I'd like to schedule a cleaning."
+    },
+    {
+      "action_name": "Email insurance card",
+      "people_involved": ["Tom Johnson"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll email you the card this afternoon."
+    }
+  ]
+}
+15. Home Inspection Scheduling
+Realtor: Hi, this is Sarah, your realtor. The sellers have accepted your offer!
+
+Buyer: That's amazing! Oh my gosh. What's next?
+
+Realtor: Okay, we move fast. We have a 10-day inspection window which starts today, November 15th, and ends on November 25th. We need to get the home inspection done in that period.
+
+Buyer: Wow, okay. I just started a new show, I guess I have to stop watching it.
+
+Realtor: You can binge it after we close! I'm going to call my inspector, Mike, right now to see if he can get there early next week, hopefully on Monday, November 17th.
+
+Buyer: Sounds good. Do I come?
+
+Realtor: Yes. The inspection will take about 3-4 hours. You should plan to arrive for the last hour, so around 3 PM if he starts at 12 PM on Monday. He'll walk you through his findings. After that, we submit our repair request to the sellers by November 25th.
+
+Buyer: Okay. Let me know what time he confirms.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Inspection Window",
+      "people_involved": ["Buyer", "Realtor", "Sellers"],
+      "date": "November 15th - November 25th",
+      "location": "N/A",
+      "source_sentence": "We have a 10-day inspection window which starts today, November 15th, and ends on November 25th."
+    },
+    {
+      "event_name": "Home Inspection",
+      "people_involved": ["Mike (inspector)", "Buyer", "Realtor"],
+      "date": "November 17th (tentative)",
+      "location": "N/A",
+      "source_sentence": "I'm going to call my inspector, Mike, right now to see if he can get there early next week, hopefully on Monday, November 17th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Call the inspector",
+      "people_involved": ["Realtor"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'm going to call my inspector, Mike, right now to see if he can get there early next week, hopefully on Monday, November 17th."
+    },
+    {
+      "action_name": "Arrive for inspection summary",
+      "people_involved": ["Buyer"],
+      "date": "November 17th, 3 PM (tentative)",
+      "location": "N/A",
+      "source_sentence": "You should plan to arrive for the last hour, so around 3 PM if he starts at 12 PM on Monday."
+    },
+    {
+      "action_name": "Submit repair request",
+      "people_involved": ["Buyer", "Realtor"],
+      "date": "by November 25th",
+      "location": "N/A",
+      "source_sentence": "After that, we submit our repair request to the sellers by November 25th."
+    }
+  ]
+}
+16. Podcast Recording Schedule
+Host: Hey, thanks for agreeing to be on the show. We're recording our December episodes next week.
+
+Guest: My pleasure! I'm a big fan of the podcast. My cat's a fan too, he always falls asleep to your voice.
+
+Host: Haha, I'll take that as a compliment. Can you do the recording session on Tuesday, November 18th at 4 PM? We use Riverside for recording.
+
+Guest: Yes, that works for me.
+
+Host: Great. I'll send you the link on Tuesday morning. The episode itself is scheduled to air on Monday, December 8th. Before we record, can you email me a short bio and a headshot by end of day tomorrow, November 16th?
+
+Guest: Will do. I'll get that over to you tonight.
+
+Host: Perfect. Talk to you on Tuesday.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Podcast Recording Session",
+      "people_involved": ["Host", "Guest"],
+      "date": "Tuesday, November 18th, 4 PM",
+      "location": "Riverside (Virtual)",
+      "source_sentence": "Can you do the recording session on Tuesday, November 18th at 4 PM?"
+    },
+    {
+      "event_name": "Podcast Episode Air Date",
+      "people_involved": ["Host", "Guest"],
+      "date": "Monday, December 8th",
+      "location": "N/A",
+      "source_sentence": "The episode itself is scheduled to air on Monday, December 8th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send recording link",
+      "people_involved": ["Host"],
+      "date": "November 18th (morning)",
+      "location": "N/A",
+      "source_sentence": "I'll send you the link on Tuesday morning."
+    },
+    {
+      "action_name": "Email short bio and headshot",
+      "people_involved": ["Guest"],
+      "date": "by November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "Before we record, can you email me a short bio and a headshot by end of day tomorrow, November 16th?"
+    }
+  ]
+}
+17. Client Dinner Planning
+Manager: Hi Alex, our biggest client, Ms. Tanaka, is flying in from Tokyo next month.
+
+Alex: Oh, wow. That's big.
+
+Manager: Yes. She arrives on December 10th. I need you to book a client dinner for that evening, Wednesday, December 10th, around 7 PM.
+
+Alex: Okay. Any preferences?
+
+Manager: She's vegetarian, so it must be a high-end restaurant with excellent vegetarian options. I was thinking 'The Green Orchid'. Please make the reservation for four people. I'll handle booking her hotel at the Ritz.
+
+Alex: Got it. I'll call 'The Green Orchid' right now and book the table for December 10th. I'll also arrange for a car service to pick her up from the airport.
+
+Manager: Perfect. This is a very important deal. I've been so stressed I've been eating way too much chocolate.
+
+Alex: I'll handle it, don't worry.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Client Arrival",
+      "people_involved": ["Ms. Tanaka"],
+      "date": "December 10th",
+      "location": "Tokyo (from)",
+      "source_sentence": "She arrives on December 10th."
+    },
+    {
+      "event_name": "Client Dinner",
+      "people_involved": ["Ms. Tanaka", "Manager", "Alex", "1 other"],
+      "date": "Wednesday, December 10th, 7 PM",
+      "location": "The Green Orchid (tentative)",
+      "source_sentence": "I need you to book a client dinner for that evening, Wednesday, December 10th, around 7 PM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Make a dinner reservation",
+      "people_involved": ["Alex"],
+      "date": "for December 10th",
+      "location": "The Green Orchid",
+      "source_sentence": "Please make the reservation for four people."
+    },
+    {
+      "action_name": "Book the hotel",
+      "people_involved": ["Manager"],
+      "date": "N/A",
+      "location": "Ritz",
+      "source_sentence": "I'll handle booking her hotel at the Ritz."
+    },
+    {
+      "action_name": "Arrange for car service",
+      "people_involved": ["Alex"],
+      "date": "for December 10th",
+      "location": "Airport",
+      "source_sentence": "I'll also arrange for a car service to pick her up from the airport."
+    }
+  ]
+}
+18. Software Update Rollout
+Dev Lead: Team, the security patch (v2.5.1) is complete. We need to schedule the rollout to production.
+
+SysAdmin: Okay. I've prepared the servers. I'd prefer to do the update during a low-traffic window. How about Tuesday, November 18th at 2 AM?
+
+Dev Lead: That works. The maintenance window will be from 2 AM to 4 AM. We'll need to post a notice on the user dashboard at least 24 hours in advance.
+
+Support Lead: I'll draft the notice and get it posted by EOD today. My team will also be on high alert on November 18th to handle any support tickets that come in after the update.
+
+Dev Lead: Great. I'll be online during the update at 2 AM to monitor the logs. I'm going to need so much coffee.
+
+SysAdmin: You and me both. I just bought a new coffee machine, actually. It's amazing.
+
+Dev Lead: Nice. Okay, let's get this done.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Software Update Rollout (v2.5.1)",
+      "people_involved": ["Dev Lead", "SysAdmin", "Support Lead"],
+      "date": "Tuesday, November 18th, 2 AM",
+      "location": "Production Servers",
+      "source_sentence": "I'd prefer to do the update during a low-traffic window. How about Tuesday, November 18th at 2 AM?"
+    },
+    {
+      "event_name": "Maintenance Window",
+      "people_involved": ["Dev Lead", "SysAdmin"],
+      "date": "November 18th, 2 AM - 4 AM",
+      "location": "N/A",
+      "source_sentence": "The maintenance window will be from 2 AM to 4 AM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Post maintenance notice",
+      "people_involved": ["Support Lead"],
+      "date": "by November 15, 2025",
+      "location": "User Dashboard",
+      "source_sentence": "I'll draft the notice and get it posted by EOD today."
+    },
+    {
+      "action_name": "Be on high alert",
+      "people_involved": ["Support Lead's Team"],
+      "date": "November 18th",
+      "location": "N/A",
+      "source_sentence": "My team will also be on high alert on November 18th to handle any support tickets that come in after the update."
+    },
+    {
+      "action_name": "Monitor logs during update",
+      "people_involved": ["Dev Lead"],
+      "date": "November 18th, 2 AM",
+      "location": "N/A",
+      "source_sentence": "Great. I'll be online during the update at 2 AM to monitor the logs."
+    }
+  ]
+}
+19. Wedding Dress Fitting
+Bride: Hi, I'm calling to check on my dress order. My name is Sarah Miller, and my wedding is on March 22nd.
+
+Bridal Shop: Hi Sarah! Yes, I see your file. Your dress arrived from the designer last week! It's beautiful.
+
+Bride: Oh, thank goodness! I was getting so nervous. I've been having stress dreams about it.
+
+Bridal Shop: No need to stress! Let's get you scheduled for your first fitting. Our master seamstress, Elena, is here on Wednesdays and Fridays.
+
+Bride: Okay, can I do Friday, December 5th in the afternoon?
+
+Bridal Shop: Let me check. Yes, Elena has an opening at 2:30 PM on December 5th. We'll book you for that fitting. Please remember to bring your wedding shoes.
+
+Bride: I will. Thank you so much!
+
+Bridal Shop: You're welcome. We'll see you then!
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Wedding",
+      "people_involved": ["Sarah Miller (Bride)"],
+      "date": "March 22nd",
+      "location": "N/A",
+      "source_sentence": "My name is Sarah Miller, and my wedding is on March 22nd."
+    },
+    {
+      "event_name": "First Dress Fitting",
+      "people_involved": ["Sarah Miller (Bride)", "Elena (Seamstress)"],
+      "date": "Friday, December 5th, 2:30 PM",
+      "location": "Bridal Shop",
+      "source_sentence": "Yes, Elena has an opening at 2:30 PM on December 5th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Book the fitting",
+      "people_involved": ["Bridal Shop"],
+      "date": "for December 5th",
+      "location": "Bridal Shop",
+      "source_sentence": "We'll book you for that fitting."
+    },
+    {
+      "action_name": "Bring wedding shoes",
+      "people_involved": ["Sarah Miller (Bride)"],
+      "date": "December 5th",
+      "location": "Bridal Shop",
+      "source_sentence": "Please remember to bring your wedding shoes."
+    }
+  ]
+}
+20. Organizing a Charity Bake Sale
+Tim: Okay, the charity bake sale for the animal shelter is next Saturday, November 22nd. We need to get organized.
+
+Lisa: Right. I've already booked the table at the Community Center from 9 AM to 2 PM. I'm so excited, I bought a new tablecloth.
+
+Tim: Perfect. I will design the posters and print them at the library tonight. I'll hang them up around town tomorrow, November 16th.
+
+Lisa: Great. I'll call the other volunteers and create the baking schedule so we have a good variety. I need to email out the final schedule by Tuesday, November 18th.
+
+Tim: What about money?
+
+Lisa: I'll get the cash box and a Square reader from the shelter office on Friday, November 21st.
+
+Tim: You've thought of everything. This is going to be great.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Charity Bake Sale",
+      "people_involved": ["Tim", "Lisa", "Volunteers"],
+      "date": "Saturday, November 22nd, 9 AM - 2 PM",
+      "location": "Community Center",
+      "source_sentence": "Okay, the charity bake sale for the animal shelter is next Saturday, November 22nd."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Design and print posters",
+      "people_involved": ["Tim"],
+      "date": "November 15, 2025",
+      "location": "Library",
+      "source_sentence": "I will design the posters and print them at the library tonight."
+    },
+    {
+      "action_name": "Hang up posters",
+      "people_involved": ["Tim"],
+      "date": "November 16, 2025",
+      "location": "Around town",
+      "source_sentence": "I'll hang them up around town tomorrow, November 16th."
+    },
+    {
+      "action_name": "Create and email baking schedule",
+      "people_involved": ["Lisa"],
+      "date": "by Tuesday, November 18th",
+      "location": "N/A",
+      "source_sentence": "I need to email out the final schedule by Tuesday, November 18th."
+    },
+    {
+      "action_name": "Get cash box and Square reader",
+      "people_involved": ["Lisa"],
+      "date": "Friday, November 21st",
+      "location": "Shelter Office",
+      "source_sentence": "I'll get the cash box and a Square reader from the shelter office on Friday, November 21st."
+    }
+  ]
+}
+21. Scheduling a Performance Review
+Manager: Hi Chris, it's that time of year. I'd like to schedule your annual performance review.
+
+Chris: Sounds good. I've been working on my self-assessment. My dog has been sitting on my laptop, making it difficult, but it's almost done.
+
+Manager: Haha, the struggles of remote work. Can you submit your self-assessment to me by EOD Monday, November 17th?
+
+Chris: Yes, I can do that.
+
+Manager: Great. I'd like to meet on Thursday, November 20th at 3 PM to discuss it. I'll book the 'Fireside' conference room for us for an hour.
+
+Chris: Perfect, I'll be there.
+
+Manager: I'll review your self-assessment alongside my notes on Tuesday the 18th and prepare the final review document to share with you at the meeting.
+
+Chris: Thank you.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Annual Performance Review Meeting",
+      "people_involved": ["Manager", "Chris"],
+      "date": "Thursday, November 20th, 3 PM",
+      "location": "'Fireside' Conference Room",
+      "source_sentence": "I'd like to meet on Thursday, November 20th at 3 PM to discuss it."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Submit self-assessment",
+      "people_involved": ["Chris"],
+      "date": "by EOD Monday, November 17th",
+      "location": "N/A",
+      "source_sentence": "Can you submit your self-assessment to me by EOD Monday, November 17th?"
+    },
+    {
+      "action_name": "Book conference room",
+      "people_involved": ["Manager"],
+      "date": "for November 20th",
+      "location": "'Fireside' Conference Room",
+      "source_sentence": "I'll book the 'Fireside' conference room for us for an hour."
+    },
+    {
+      "action_name": "Review assessment and prepare final document",
+      "people_involved": ["Manager"],
+      "date": "Tuesday the 18th",
+      "location": "N/A",
+      "source_sentence": "I'll review your self-assessment alongside my notes on Tuesday the 18th and prepare the final review document to share with you at the meeting."
+    }
+  ]
+}
+22. Filing Taxes
+Accountant: Hi Mr. Jones. This is David from A+ Accounting. I'm just calling to remind you that the corporate tax extension deadline is December 15th.
+
+Mr. Jones: Oh, right. Thanks, David. I've been so busy with this new construction project, I almost forgot.
+
+Accountant: No problem, that's what I'm here for. I need you to send me your Q4 P&L statement and all your expense reports by December 1st at the latest, or I can't guarantee I'll finish in time.
+
+Mr. Jones: Okay, I'll have my bookkeeper compile those documents and email them to you next week, no later than November 28th.
+
+Accountant: Perfect. Once I have those, I will prepare the return and send it to you for final signature by December 10th.
+
+Mr. Jones: You're a lifesaver, David.
+
+Accountant: Just doing my job. Talk to you soon.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Corporate Tax Extension Deadline",
+      "people_involved": ["Mr. Jones", "Accountant"],
+      "date": "December 15th",
+      "location": "N/A",
+      "source_sentence": "I'm just calling to remind you that the corporate tax extension deadline is December 15th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send P&L and expense reports",
+      "people_involved": ["Mr. Jones"],
+      "date": "by December 1st",
+      "location": "N/A",
+      "source_sentence": "I need you to send me your Q4 P&L statement and all your expense reports by December 1st at the latest."
+    },
+    {
+      "action_name": "Compile and email documents",
+      "people_involved": ["Mr. Jones's bookkeeper"],
+      "date": "by November 28th",
+      "location": "N/A",
+      "source_sentence": "Okay, I'll have my bookkeeper compile those documents and email them to you next week, no later than November 28th."
+    },
+    {
+      "action_name": "Prepare return and send for signature",
+      "people_involved": ["Accountant"],
+      "date": "by December 10th",
+      "location": "N/A",
+      "source_sentence": "Once I have those, I will prepare the return and send it to you for final signature by December 10th."
+    }
+  ]
+}
+23. Vet Appointment
+Owner: Hi, my dog Buster has been limping since yesterday. I'd like to make an appointment with Dr. Patel.
+
+Vet Tech: Oh, poor guy. I've been trying to teach my own dog to play fetch, but he just stares at me. Let's see... Dr. Patel has an opening tomorrow morning, November 16th, at 10 AM.
+
+Owner: That's perfect, I'll take it.
+
+Vet Tech: Great. So we'll see Buster at the Willow Creek Vet Clinic on November 16th at 10 AM. Is this his first time here?
+
+Owner: No, he's a regular. You should have his files.
+
+Vet Tech: I see them now. Okay, please fast him after midnight tonight, just in case Dr. Patel needs to run any blood work tomorrow.
+
+Owner: No food after midnight. Got it. Thank you.
+
+Vet Tech: You're welcome. See you then.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Vet Appointment",
+      "people_involved": ["Owner", "Buster (dog)", "Dr. Patel"],
+      "date": "November 16th, 10 AM",
+      "location": "Willow Creek Vet Clinic",
+      "source_sentence": "Dr. Patel has an opening tomorrow morning, November 16th, at 10 AM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Fast the dog",
+      "people_involved": ["Owner"],
+      "date": "after midnight November 15th",
+      "location": "N/A",
+      "source_sentence": "Okay, please fast him after midnight tonight, just in case Dr. Patel needs to run any blood work tomorrow."
+    },
+    {
+      "action_name": "Run blood work",
+      "people_involved": ["Dr. Patel"],
+      "date": "November 16th",
+      "location": "Willow Creek Vet Clinic",
+      "source_sentence": "Okay, please fast him after midnight tonight, just in case Dr. Patel needs to run any blood work tomorrow."
+    }
+  ]
+}
+24. Museum Exhibit Installation
+Curator: The 'Modern Futures' exhibit is our big one for the spring. The opening gala is March 1st.
+
+Registrar: That means the artwork crates must arrive from the lenders no later than February 1st. I'm already coordinating with the shipping companies.
+
+Curator: Good. I'm still trying to decide on the wall colors. I was thinking a dark blue, but maybe that's too much.
+
+Registrar: Blue is nice. Our install team will begin painting and prep on February 3rd. We'll start hanging the art on February 10th.
+
+Curator: That's a tight schedule. I need to finish all the wall text and send it to the printer by January 15th so it's ready for the install team.
+
+Registrar: I'll also schedule the lighting designers to come in on February 25th for their final focus.
+
+Curator: Perfect. This is going to be a beautiful show.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "'Modern Futures' Exhibit Opening Gala",
+      "people_involved": ["Curator", "Registrar"],
+      "date": "March 1st",
+      "location": "N/A",
+      "source_sentence": "The 'Modern Futures' exhibit is our big one for the spring. The opening gala is March 1st."
+    },
+    {
+      "event_name": "Artwork Arrival",
+      "people_involved": ["Registrar", "Lenders"],
+      "date": "by February 1st",
+      "location": "N/A",
+      "source_sentence": "That means the artwork crates must arrive from the lenders no later than February 1st."
+    },
+    {
+      "event_name": "Exhibit Installation",
+      "people_involved": ["Install Team"],
+      "date": "starts February 3rd",
+      "location": "N/A",
+      "source_sentence": "Our install team will begin painting and prep on February 3rd."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Start hanging the art",
+      "people_involved": ["Install Team"],
+      "date": "February 10th",
+      "location": "N/A",
+      "source_sentence": "We'll start hanging the art on February 10th."
+    },
+    {
+      "action_name": "Finish wall text and send to printer",
+      "people_involved": ["Curator"],
+      "date": "by January 15th",
+      "location": "N/A",
+      "source_sentence": "I need to finish all the wall text and send it to the printer by January 15th so it's ready for the install team."
+    },
+    {
+      "action_name": "Schedule lighting designers",
+      "people_involved": ["Registrar"],
+      "date": "for February 25th",
+      "location": "N/A",
+      "source_sentence": "I'll also schedule the lighting designers to come in on February 25th for their final focus."
+    }
+  ]
+}
+25. Catering a Party
+Client: Hi, I'm calling about catering my husband's 50th birthday party on Saturday, December 13th.
+
+Caterer: What a great milestone! How many guests are you expecting?
+
+Client: About 75 people, at our home on Maple Drive. I'm just so overwhelmed with planning. I made a new soup recipe last night and it was a total disaster.
+
+Caterer: Oh no! Don't worry, we'll handle the food. For a party on December 13th, I need you to finalize your menu selections with me by November 20th.
+
+Client: Okay, I can do that. I'll sit down with my husband tonight and decide.
+
+Caterer: Wonderful. After that, I will email you the final invoice. We require a 50% deposit by November 25th to hold the date.
+
+Client: That's fine.
+
+Caterer: Great. And our team will arrive at your home at 5 PM on December 13th to set up for the 7 PM party.
+
+Client: Thank you, this is a big help.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Husband's 50th Birthday Party",
+      "people_involved": ["Client", "Client's Husband", "Caterer"],
+      "date": "Saturday, December 13th",
+      "location": "Client's home on Maple Drive",
+      "source_sentence": "Hi, I'm calling about catering my husband's 50th birthday party on Saturday, December 13th."
+    },
+    {
+      "event_name": "Catering Setup",
+      "people_involved": ["Caterer's Team"],
+      "date": "December 13th, 5 PM",
+      "location": "Client's home on Maple Drive",
+      "source_sentence": "And our team will arrive at your home at 5 PM on December 13th to set up for the 7 PM party."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Finalize menu selections",
+      "people_involved": ["Client"],
+      "date": "by November 20th",
+      "location": "N/A",
+      "source_sentence": "For a party on December 13th, I need you to finalize your menu selections with me by November 20th."
+    },
+    {
+      "action_name": "Pay 50% deposit",
+      "people_involved": ["Client"],
+      "date": "by November 25th",
+      "location": "N/A",
+      "source_sentence": "We require a 50% deposit by November 25th to hold the date."
+    },
+    {
+      "action_name": "Decide on menu",
+      "people_involved": ["Client", "Client's Husband"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll sit down with my husband tonight and decide."
+    }
+  ]
+}
+26. Band Practice and Gig
+Leo: Hey, are we still practicing on Monday night? We've got that gig at The Starlight on Friday, December 5th.
+
+Sara: Yes, definitely. My guitar amp is acting weird, but I think I fixed it. Let's do Monday, November 17th at 7 PM at my storage unit.
+
+Leo: Sounds good. We really need to finalize the setlist. I'll email the band a draft tomorrow.
+
+Sara: Okay. We need to have the final setlist decided by the end of that practice on Monday. I also need to buy new strings before Friday's gig.
+
+Leo: Right. I'll confirm our load-in time with the bar manager. It's usually 6 PM, but I'll call him on December 1st just to be sure.
+
+Sara: Smart. This is our biggest gig yet. I'm kind of nervous.
+
+Leo: We'll be great. Let's just nail the practice on Monday.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Gig at The Starlight",
+      "people_involved": ["Leo", "Sara", "Band"],
+      "date": "Friday, December 5th",
+      "location": "The Starlight",
+      "source_sentence": "We've got that gig at The Starlight on Friday, December 5th."
+    },
+    {
+      "event_name": "Band Practice",
+      "people_involved": ["Leo", "Sara", "Band"],
+      "date": "Monday, November 17th, 7 PM",
+      "location": "Sara's storage unit",
+      "source_sentence": "Let's do Monday, November 17th at 7 PM at my storage unit."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Email draft setlist",
+      "people_involved": ["Leo"],
+      "date": "November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll email the band a draft tomorrow."
+    },
+    {
+      "action_name": "Finalize setlist",
+      "people_involved": ["Leo", "Sara", "Band"],
+      "date": "by end of November 17th",
+      "location": "Sara's storage unit",
+      "source_sentence": "We need to have the final setlist decided by the end of that practice on Monday."
+    },
+    {
+      "action_name": "Buy new strings",
+      "people_involved": ["Sara"],
+      "date": "before December 5th",
+      "location": "N/A",
+      "source_sentence": "I also need to buy new strings before Friday's gig."
+    },
+    {
+      "action_name": "Confirm load-in time",
+      "people_involved": ["Leo"],
+      "date": "December 1st",
+      "location": "N/A",
+      "source_sentence": "I'll confirm our load-in time with the bar manager. ... I'll call him on December 1st just to be sure."
+    }
+  ]
+}
+27. Applying for a Passport
+Agent: Hi, you're here for a passport application?
+
+Applicant: Yes, I have a trip to Mexico on January 20th and I just realized my passport is expired.
+
+Agent: Oh, you're cutting it close. Today is November 15th. Standard processing is 8-11 weeks. You'll need to expedite your application.
+
+Applicant: I know, I'm so stressed. I was cleaning out my closet and found it. How do I do that?
+
+Agent: I'll mark your application for expedited service, which is 5-7 weeks. You'll also need to pay for the 1-2 day delivery fee.
+
+Applicant: Okay, let's do it.
+
+Agent: I'll submit your forms and payment today. Your new passport should arrive by mail no later than January 5th.
+
+Applicant: Thank you so much, you're a lifesaver.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Passport Application",
+      "people_involved": ["Applicant", "Agent"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Hi, you're here for a passport application?"
+    },
+    {
+      "event_name": "Trip to Mexico",
+      "people_involved": ["Applicant"],
+      "date": "January 20th",
+      "location": "Mexico",
+      "source_sentence": "Yes, I have a trip to Mexico on January 20th and I just realized my passport is expired."
+    },
+    {
+      "event_name": "New Passport Arrival",
+      "people_involved": ["Applicant"],
+      "date": "by January 5th",
+      "location": "N/A",
+      "source_sentence": "Your new passport should arrive by mail no later than January 5th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Expedite application",
+      "people_involved": ["Applicant", "Agent"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "You'll need to expedite your application."
+    },
+    {
+      "action_name": "Submit forms and payment",
+      "people_involved": ["Agent"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll submit your forms and payment today."
+    }
+  ]
+}
+28. Editorial Calendar Planning
+Editor: Okay, let's plan the January content calendar. I want all drafts submitted by December 10th.
+
+Writer 1: Got it. I'm pitching a story on New Year's resolutions. I can get you the first draft by December 1st.
+
+Writer 2: I'm working on the "Winter Travel" piece. It's hard to write about snow when it's still warm out. I'm trying to interview the travel agent next week.
+
+Editor: That's fine, just make sure the final draft is on my desk by December 10th. I will conduct all my edits from December 11th to 15th.
+
+Writer 1: And when does the content get published?
+
+Editor: We'll schedule all articles to go live the first week of January, starting January 5th.
+
+Writer 2: Sounds good. I'll get that interview scheduled.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Content Publishing",
+      "people_involved": ["Editor", "Writer 1", "Writer 2"],
+      "date": "First week of January (starting Jan 5th)",
+      "location": "N/A",
+      "source_sentence": "We'll schedule all articles to go live the first week of January, starting January 5th."
+    },
+    {
+      "event_name": "Editing Period",
+      "people_involved": ["Editor"],
+      "date": "December 11th - 15th",
+      "location": "N/A",
+      "source_sentence": "I will conduct all my edits from December 11th to 15th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Submit all drafts",
+      "people_involved": ["Writer 1", "Writer 2"],
+      "date": "by December 10th",
+      "location": "N/A",
+      "source_sentence": "I want all drafts submitted by December 10th."
+    },
+    {
+      "action_name": "Submit first draft (New Year's story)",
+      "people_involved": ["Writer 1"],
+      "date": "by December 1st",
+      "location": "N/A",
+      "source_sentence": "I can get you the first draft by December 1st."
+    },
+    {
+      "action_name": "Interview travel agent",
+      "people_involved": ["Writer 2"],
+      "date": "Week of Nov 17th",
+      "location": "N/A",
+      "source_sentence": "I'm trying to interview the travel agent next week."
+    }
+  ]
+}
+29. Apartment Lease Renewal
+Tenant: Hi, my lease is up on January 31st. I'm calling to discuss the renewal.
+
+Landlord: Ah yes, Mr. Chen. Thanks for calling. We are increasing the rent by 3% for the new term.
+
+Tenant: Okay, that's reasonable. I was worried it would be more. My neighbor's been playing loud music, but otherwise, it's been great.
+
+Landlord: I can send a memo about noise. If you want to renew, I need you to sign the new lease and return it to me by December 1st.
+
+Tenant: Okay. Can you email me the new lease today?
+
+Landlord: Yes, I will send it over this afternoon. Just sign it and drop it in my office mailbox before December 1st. Your new lease term will then run from February 1st to January 31st, 2027.
+
+Tenant: Perfect. I'll get that done next week.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Lease End Date",
+      "people_involved": ["Tenant (Mr. Chen)", "Landlord"],
+      "date": "January 31st",
+      "location": "N/A",
+      "source_sentence": "Hi, my lease is up on January 31st."
+    },
+    {
+      "event_name": "New Lease Term",
+      "people_involved": ["Tenant (Mr. Chen)", "Landlord"],
+      "date": "February 1st - January 31st, 2027",
+      "location": "N/A",
+      "source_sentence": "Your new lease term will then run from February 1st to January 31st, 2027."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Sign and return new lease",
+      "people_involved": ["Tenant (Mr. Chen)"],
+      "date": "by December 1st",
+      "location": "Landlord's office mailbox",
+      "source_sentence": "If you want to renew, I need you to sign the new lease and return it to me by December 1st."
+    },
+    {
+      "action_name": "Email the new lease",
+      "people_involved": ["Landlord"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Yes, I will send it over this afternoon."
+    }
+  ]
+}
+30. Film Festival Submission
+Filmmaker: Hi, I'm calling about the Oakwood Film Festival. I'm a filmmaker and I'd like to submit my short film.
+
+Admin: Great! The submission deadline is January 15th. You'll need to upload your film to our portal by then.
+
+Filmmaker: Okay, I can do that. My film is almost done. I'm just doing the final color grade this weekend.
+
+Admin: Sounds good. We will be notifying all selected filmmakers by February 10th. The festival itself runs from March 5th to 8th.
+
+Filmmaker: Amazing. I'm also working on my director's statement. Is that required?
+
+Admin: Yes, you'll upload that with your film on the portal by the January 15th deadline.
+
+Filmmaker: Got it. Thank you so much.
+
+Admin: Good luck!
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Submission Deadline",
+      "people_involved": ["Filmmaker", "Admin"],
+      "date": "January 15th",
+      "location": "N/A",
+      "source_sentence": "The submission deadline is January 15th."
+    },
+    {
+      "event_name": "Notification Date",
+      "people_involved": ["Admin", "Filmmakers"],
+      "date": "by February 10th",
+      "location": "N/A",
+      "source_sentence": "We will be notifying all selected filmmakers by February 10th."
+    },
+    {
+      "event_name": "Oakwood Film Festival",
+      "people_involved": ["Filmmaker", "Admin"],
+      "date": "March 5th - 8th",
+      "location": "N/A",
+      "source_sentence": "The festival itself runs from March 5th to 8th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Upload film and director's statement",
+      "people_involved": ["Filmmaker"],
+      "date": "by January 15th",
+      "location": "Portal (Virtual)",
+      "source_sentence": "You'll need to upload your film to our portal by then."
+    },
+    {
+      "action_name": "Do final color grade",
+      "people_involved": ["Filmmaker"],
+      "date": "November 15-16, 2025",
+      "location": "N/A",
+      "source_sentence": "I'm just doing the final color grade this weekend."
+    }
+  ]
+}
+31. Volunteer Orientation
+Coordinator: Hi, welcome to the new volunteer orientation for the City Animal Shelter.
+
+New Volunteer: Hi, I'm excited to start. I love cats, but I think I'm allergic. I'm hoping to work with dogs.
+
+Coordinator: We have plenty of dogs! After this orientation today, November 15th, you'll be able to sign up for shifts. Our next dog-walking class is Saturday, November 22nd at 10 AM, which is mandatory.
+
+New Volunteer: Okay, I can make that.
+
+Coordinator: Great. You'll need to complete 10 hours of "shadowing" with a senior volunteer. You can start signing up for those shifts tomorrow, November 16th, on our website.
+
+New Volunteer: And after the shadow shifts?
+
+Coordinator: Then you're a full-fledged volunteer! We're also having our annual 'Paws for a Cause' gala on February 7th, which we'll need all hands on deck for.
+
+New Volunteer: Sounds great. I'll sign up for the November 22nd class right after this.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "New Volunteer Orientation",
+      "people_involved": ["Coordinator", "New Volunteer"],
+      "date": "November 15, 2025",
+      "location": "City Animal Shelter",
+      "source_sentence": "Hi, welcome to the new volunteer orientation for the City Animal Shelter."
+    },
+    {
+      "event_name": "Dog-walking Class",
+      "people_involved": ["New Volunteer"],
+      "date": "Saturday, November 22nd, 10 AM",
+      "location": "N/A",
+      "source_sentence": "Our next dog-walking class is Saturday, November 22nd at 10 AM, which is mandatory."
+    },
+    {
+      "event_name": "'Paws for a Cause' Gala",
+      "people_involved": ["Coordinator", "New Volunteer"],
+      "date": "February 7th",
+      "location": "N/A",
+      "source_sentence": "We're also having our annual 'Paws for a Cause' gala on February 7th, which we'll need all hands on deck for."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Sign up for shadow shifts",
+      "people_involved": ["New Volunteer"],
+      "date": "starting November 16, 2025",
+      "location": "Website",
+      "source_sentence": "You can start signing up for those shifts tomorrow, November 16th, on our website."
+    },
+    {
+      "action_name": "Sign up for dog-walking class",
+      "people_involved": ["New Volunteer"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll sign up for the November 22nd class right after this."
+    }
+  ]
+}
+32. IT System Migration
+IT Lead: This is the final planning meeting for the email server migration. The migration is scheduled for next weekend.
+
+Engineer: Yes, the system will go offline on Friday, November 21st at 8 PM, and we expect it to be back online by Sunday, November 23rd at 6 AM.
+
+IT Lead: That's our window. We need to send out a final warning to all employees on Monday, November 17th, and again one hour before the outage on Friday.
+
+Comms: I'll draft that email and schedule it to send. I've been trying a new standing desk, my back feels so much better.
+
+IT Lead: That's great. Engineer, I need you to run the final backup at 7 PM on Friday, November 21st, just before the shutdown.
+
+Engineer: Will do. I'll be in the data center all weekend to manage the process.
+
+IT Lead: Good. Let's hope this goes smoothly.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Email Server Migration",
+      "people_involved": ["IT Lead", "Engineer", "Comms"],
+      "date": "November 21st, 8 PM - November 23rd, 6 AM",
+      "location": "Data Center",
+      "source_sentence": "The system will go offline on Friday, November 21st at 8 PM, and we expect it to be back online by Sunday, November 23rd at 6 AM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send final warning email",
+      "people_involved": ["Comms", "IT Lead"],
+      "date": "Monday, November 17th",
+      "location": "N/A",
+      "source_sentence": "We need to send out a final warning to all employees on Monday, November 17th, and again one hour before the outage on Friday."
+    },
+    {
+      "action_name": "Run final backup",
+      "people_involved": ["Engineer"],
+      "date": "7 PM on Friday, November 21st",
+      "location": "N/A",
+      "source_sentence": "Engineer, I need you to run the final backup at 7 PM on Friday, November 21st, just before the shutdown."
+    },
+    {
+      "action_name": "Manage migration process",
+      "people_involved": ["Engineer"],
+      "date": "November 21-23",
+      "location": "Data Center",
+      "source_sentence": "Will do. I'll be in the data center all weekend to manage the process."
+    }
+  ]
+}
+33. Gym Membership Inquiry
+Gym Rep: Welcome to Fitness First! Are you here for a tour?
+
+Customer: Yes, I'm thinking of joining. I just ate a whole pizza last night, so I need to do something.
+
+Gym Rep: Haha, we've all been there. Well, we have a great promotion right now. If you sign up by the end of the month, November 30th, we'll waive the initiation fee.
+
+Customer: That's a good deal. What are your classes like?
+
+Gym Rep: They're great. Our new yoga class starts next Monday, November 24th at 6 PM. Your membership would include all classes.
+
+Customer: Okay, I'm interested. I need to check with my work schedule. I'll come back tomorrow to sign up if it works.
+
+Gym Rep: Sounds good. I'll get a guest pass ready for you in case you want to try the gym tomorrow.
+
+Customer: Thanks!
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "New Yoga Class",
+      "people_involved": ["Customer"],
+      "date": "Monday, November 24th, 6 PM",
+      "location": "Fitness First",
+      "source_sentence": "Our new yoga class starts next Monday, November 24th at 6 PM."
+    },
+    {
+      "event_name": "Promotion Deadline",
+      "people_involved": ["Customer", "Gym Rep"],
+      "date": "November 30th",
+      "location": "Fitness First",
+      "source_sentence": "If you sign up by the end of the month, November 30th, we'll waive the initiation fee."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Sign up for membership",
+      "people_involved": ["Customer"],
+      "date": "by November 30th",
+      "location": "Fitness First",
+      "source_sentence": "If you sign up by the end of the month, November 30th, we'll waive the initiation fee."
+    },
+    {
+      "action_name": "Come back to sign up",
+      "people_involved": ["Customer"],
+      "date": "November 16, 2025",
+      "location": "Fitness First",
+      "source_sentence": "I'll come back tomorrow to sign up if it works."
+    },
+    {
+      "action_name": "Get a guest pass ready",
+      "people_involved": ["Gym Rep"],
+      "date": "for November 16, 2025",
+      "location": "Fitness First",
+      "source_sentence": "I'll get a guest pass ready for you in case you want to try the gym tomorrow."
+    }
+  ]
+}
+34. Ordering Office Supplies
+Office Manager: Hi, I'm calling to place our monthly supply order. This is Jan from Smith & Co.
+
+Supplier: Hi Jan! How are you? Did you see the game last night?
+
+Office Manager: I did! Crazy ending. But I'm low on everything. I need five cases of printer paper, ten boxes of blue pens, and... I need it all delivered by next Friday, November 21st.
+
+Supplier: No problem. To get it to you by the 21st, I need to get your PO number and finalize the order by EOD Monday, November 17th.
+
+Office Manager: Okay, I can do that. I'll email you the full list and PO number right after this call.
+
+Supplier: Perfect. I'll pack the order on Wednesday, November 19th and schedule it for delivery on Friday, November 21st.
+
+Office Manager: You're the best, thanks.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Supply Delivery",
+      "people_involved": ["Office Manager (Jan)", "Supplier"],
+      "date": "by Friday, November 21st",
+      "location": "Smith & Co.",
+      "source_sentence": "I need it all delivered by next Friday, November 21st."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Place monthly supply order",
+      "people_involved": ["Office Manager (Jan)"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Hi, I'm calling to place our monthly supply order."
+    },
+    {
+      "action_name": "Finalize the order",
+      "people_involved": ["Supplier", "Office Manager (Jan)"],
+      "date": "by EOD Monday, November 17th",
+      "location": "N/A",
+      "source_sentence": "To get it to you by the 21st, I need to get your PO number and finalize the order by EOD Monday, November 17th."
+    },
+    {
+      "action_name": "Email list and PO number",
+      "people_involved": ["Office Manager (Jan)"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll email you the full list and PO number right after this call."
+    },
+    {
+      "action_name": "Pack and schedule order",
+      "people_involved": ["Supplier"],
+      "date": "November 19th",
+      "location": "N/A",
+      "source_sentence": "I'll pack the order on Wednesday, November 19th and schedule it for delivery on Friday, November 21st."
+    }
+  ]
+}
+35. Planning a Surprise Party
+Mark: Hey, Maria's birthday is December 10th. We should throw her a surprise party.
+
+Chloe: Yes! Let's do it on Saturday, December 13th, so she's not suspicious. We can have it at my apartment.
+
+Mark: Perfect. I will create a group chat and invite all her friends by tomorrow, November 16th. I need you to keep her busy that day.
+
+Chloe: No problem. I'll tell her we're going to a fake gallery opening that afternoon. I'll handle the food; I'll order all the catering by December 5th.
+
+Mark: And I'll get the cake and decorations. I'll pick everything up on the morning of the 13th. I'm so bad at keeping secrets, this is going to be hard.
+
+Chloe: You can do it! This will be great.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Maria's Birthday",
+      "people_involved": ["Maria"],
+      "date": "December 10th",
+      "location": "N/A",
+      "source_sentence": "Hey, Maria's birthday is December 10th."
+    },
+    {
+      "event_name": "Surprise Party",
+      "people_involved": ["Mark", "Chloe", "Maria", "Friends"],
+      "date": "Saturday, December 13th",
+      "location": "Chloe's apartment",
+      "source_sentence": "Let's do it on Saturday, December 13th, so she's not suspicious."
+    },
+    {
+      "event_name": "Fake Gallery Opening",
+      "people_involved": ["Chloe", "Maria"],
+      "date": "December 13th",
+      "location": "N/A",
+      "source_sentence": "I'll tell her we're going to a fake gallery opening that afternoon."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Create group chat and invite friends",
+      "people_involved": ["Mark"],
+      "date": "by November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "I will create a group chat and invite all her friends by tomorrow, November 16th."
+    },
+    {
+      "action_name": "Keep Maria busy",
+      "people_involved": ["Chloe"],
+      "date": "December 13th",
+      "location": "N/A",
+      "source_sentence": "I need you to keep her busy that day."
+    },
+    {
+      "action_name": "Order all the catering",
+      "people_involved": ["Chloe"],
+      "date": "by December 5th",
+      "location": "N/A",
+      "source_sentence": "I'll handle the food; I'll order all the catering by December 5th."
+    },
+    {
+      "action_name": "Pick up cake and decorations",
+      "people_involved": ["Mark"],
+      "date": "morning of the 13th",
+      "location": "N/A",
+      "source_sentence": "I'll pick everything up on the morning of the 13th."
+    }
+  ]
+}
+36. School Play Rehearsal
+Director: Okay cast, the opening night for 'Hamlet' is December 4th. That's not much time.
+
+Actor 1: I know, I'm still trying to memorize my Act 3 monologue. My roommate's band is so loud.
+
+Director: You need to be off-book (memorized) by next Monday, November 24th. No exceptions.
+
+Actor 2: What about costumes?
+
+Director: Our costume fitting day is this Saturday, November 22nd. You must sign up for a time slot on the sheet by tomorrow, November 16th.
+
+Actor 1: Got it. And what about tech week?
+
+Director: Tech week will start on Saturday, November 29th. That means all-day rehearsals from 9 AM to 6 PM on Saturday and Sunday.
+
+Actor 2: Wow, okay. I'll cancel my plans.
+
+Director: Good. Now let's run Act 2.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Opening Night ('Hamlet')",
+      "people_involved": ["Director", "Cast", "Actor 1", "Actor 2"],
+      "date": "December 4th",
+      "location": "N/A",
+      "source_sentence": "Okay cast, the opening night for 'Hamlet' is December 4th."
+    },
+    {
+      "event_name": "Costume Fitting Day",
+      "people_involved": ["Cast", "Actor 1", "Actor 2"],
+      "date": "Saturday, November 22nd",
+      "location": "N/A",
+      "source_sentence": "Our costume fitting day is this Saturday, November 22nd."
+    },
+    {
+      "event_name": "Tech Week",
+      "people_involved": ["Director", "Cast"],
+      "date": "starting November 29th",
+      "location": "N/A",
+      "source_sentence": "Tech week will start on Saturday, November 29th."
+    },
+    {
+      "event_name": "All-day Rehearsals",
+      "people_involved": ["Director", "Cast"],
+      "date": "November 29th-30th, 9 AM - 6 PM",
+      "location": "N/A",
+      "source_sentence": "That means all-day rehearsals from 9 AM to 6 PM on Saturday and Sunday."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Be off-book (memorized)",
+      "people_involved": ["Cast", "Actor 1", "Actor 2"],
+      "date": "by next Monday, November 24th",
+      "location": "N/A",
+      "source_sentence": "You need to be off-book (memorized) by next Monday, November 24th."
+    },
+    {
+      "action_name": "Sign up for a costume fitting time slot",
+      "people_involved": ["Cast", "Actor 1", "Actor 2"],
+      "date": "by tomorrow, November 16th",
+      "location": "N/A",
+      "source_sentence": "You must sign up for a time slot on the sheet by tomorrow, November 16th."
+    }
+  ]
+}
+37. Financial Advisor Meeting
+Advisor: Hi Sarah, thanks for coming in. For our meeting today, November 15th, I wanted to review your retirement contributions for the year.
+
+Sarah: Yes, thanks for setting this up. I feel like I'm behind.
+
+Advisor: Not at all. But, you still have space in your IRA. The deadline to contribute for this tax year is April 15th.
+
+Sarah: Okay, good to know. I've also been thinking about my kid's college fund. I just bought him a new bike, and it made me think about how expensive everything is.
+
+Advisor: It's smart to plan. We can open a 529 plan for him. I'll email you the forms this afternoon. You can fill them out and mail them back by the end of the month.
+
+Sarah: That sounds great.
+
+Advisor: Let's also schedule our next check-in meeting. I'd like to meet again in six months, so around May 15th.
+
+Sarah: Perfect. I'll put it on my calendar.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Financial Review Meeting",
+      "people_involved": ["Advisor", "Sarah"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "For our meeting today, November 15th, I wanted to review your retirement contributions for the year."
+    },
+    {
+      "event_name": "IRA Contribution Deadline",
+      "people_involved": ["Sarah"],
+      "date": "April 15th",
+      "location": "N/A",
+      "source_sentence": "The deadline to contribute for this tax year is April 15th."
+    },
+    {
+      "event_name": "Next Check-in Meeting",
+      "people_involved": ["Advisor", "Sarah"],
+      "date": "around May 15th",
+      "location": "N/A",
+      "source_sentence": "I'd like to meet again in six months, so around May 15th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Email 529 plan forms",
+      "people_involved": ["Advisor"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll email you the forms this afternoon."
+    },
+    {
+      "action_name": "Fill out and mail back 529 forms",
+      "people_involved": ["Sarah"],
+      "date": "by end of the month",
+      "location": "N/A",
+      "source_sentence": "You can fill them out and mail them back by the end of the month."
+    }
+  ]
+}
+38. Hair Salon Appointment
+Stylist: Hi, you've reached 'The Cut' salon. This is Anna.
+
+Client: Hi Anna, I'd like to book an appointment for a cut and color with you.
+
+Stylist: Great! I'm so glad my last client cancelled, my hands are tired. Okay, I'm looking at my book... My next opening is Tuesday, December 2nd at 1 PM.
+
+Client: Oh, I can't do weekdays. Do you have any weekends?
+
+Stylist: Weekends are tough. I'm fully booked until after Christmas. I do have one spot on Saturday, December 6th at 9 AM, but it's my only one.
+
+Client: I'll take it!
+
+Stylist: Perfect. So I have you down for a cut and color on Saturday, December 6th at 9 AM. Please be aware we have a 24-hour cancellation policy, so you must call by December 5th at 9 AM if you can't make it.
+
+Client: Understood. I'll be there.
+
+Stylist: See you then!
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Hair Appointment (Cut and Color)",
+      "people_involved": ["Client", "Anna (Stylist)"],
+      "date": "Saturday, December 6th, 9 AM",
+      "location": "'The Cut' Salon",
+      "source_sentence": "I do have one spot on Saturday, December 6th at 9 AM, but it's my only one."
+    },
+    {
+      "event_name": "Cancellation Deadline",
+      "people_involved": ["Client"],
+      "date": "December 5th, 9 AM",
+      "location": "N/A",
+      "source_sentence": "Please be aware we have a 24-hour cancellation policy, so you must call by December 5th at 9 AM if you can't make it."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Book an appointment",
+      "people_involved": ["Client"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Hi Anna, I'd like to book an appointment for a cut and color with you."
+    }
+  ]
+}
+39. Job Fair Preparation
+Manager: The University Job Fair is next Wednesday, November 19th. We need to make sure we're ready.
+
+Recruiter: I've already registered our company and paid the booth fee. The fair runs from 10 AM to 3 PM in the Student Union Building.
+
+Manager: Great. Did you order the booth materials?
+
+Recruiter: Yes, the new banners and brochures are scheduled to be delivered to the office on Monday, November 17th. I've also been eating so much Halloween candy, I need to stop.
+
+Manager: Haha, 'tis the season. Okay, I need you to pack the company car with all the materials and swag on Tuesday, November 18th.
+
+Recruiter: Will do. I'll also create the shift schedule for the team. We'll need to be at the booth by 9 AM on November 19th to set up.
+
+Manager: Perfect. This is a big recruiting push for us.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "University Job Fair",
+      "people_involved": ["Manager", "Recruiter", "Company Team"],
+      "date": "Wednesday, November 19th, 10 AM - 3 PM",
+      "location": "Student Union Building",
+      "source_sentence": "The University Job Fair is next Wednesday, November 19th."
+    },
+    {
+      "event_name": "Booth Material Delivery",
+      "people_involved": ["Recruiter"],
+      "date": "Monday, November 17th",
+      "location": "Office",
+      "source_sentence": "Yes, the new banners and brochures are scheduled to be delivered to the office on Monday, November 17th."
+    },
+    {
+      "event_name": "Booth Setup",
+      "people_involved": ["Recruiter", "Company Team"],
+      "date": "November 19th, 9 AM",
+      "location": "Student Union Building",
+      "source_sentence": "We'll need to be at the booth by 9 AM on November 19th to set up."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Register company and pay fee",
+      "people_involved": ["Recruiter"],
+      "date": "Prior to Nov 15",
+      "location": "N/A",
+      "source_sentence": "I've already registered our company and paid the booth fee."
+    },
+    {
+      "action_name": "Pack the company car",
+      "people_involved": ["Recruiter"],
+      "date": "Tuesday, November 18th",
+      "location": "N/A",
+      "source_sentence": "Okay, I need you to pack the company car with all the materials and swag on Tuesday, November 18th."
+    },
+    {
+      "action_name": "Create shift schedule",
+      "people_involved": ["Recruiter"],
+      "date": "before November 19th",
+      "location": "N/A",
+      "source_sentence": "I'll also create the shift schedule for the team."
+    }
+  ]
+}
+40. Ordering a Custom Suit
+Tailor: Welcome in. How can I help you today?
+
+Client: I have a wedding to attend on January 10th in Miami. I need a new suit.
+
+Tailor: You've come to the right place. For a custom suit, you need about six weeks. Today is November 15th, so we have time.
+
+Client: Great. I love the new shop, by the way. Looks fantastic.
+
+Tailor: Thank you! We just finished painting. Okay, let's take your measurements today. You'll pick out your fabric and we'll place the order.
+
+Client: What's next?
+
+Tailor: You'll come back for your first fitting in about three weeks, so around December 6th. Then a final fitting about two weeks after that, around December 20th. Your suit will be ready for pickup by January 5th.
+
+Client: That sounds perfect. Let's do it.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Wedding",
+      "people_involved": ["Client"],
+      "date": "January 10th",
+      "location": "Miami",
+      "source_sentence": "I have a wedding to attend on January 10th in Miami."
+    },
+    {
+      "event_name": "Initial Measurement/Fabric Selection",
+      "people_involved": ["Tailor", "Client"],
+      "date": "November 15, 2025",
+      "location": "Tailor's Shop",
+      "source_sentence": "Okay, let's take your measurements today. You'll pick out your fabric and we'll place the order."
+    },
+    {
+      "event_name": "First Suit Fitting",
+      "people_involved": ["Client", "Tailor"],
+      "date": "around December 6th",
+      "location": "Tailor's Shop",
+      "source_sentence": "You'll come back for your first fitting in about three weeks, so around December 6th."
+    },
+    {
+      "event_name": "Final Suit Fitting",
+      "people_involved": ["Client", "Tailor"],
+      "date": "around December 20th",
+      "location": "Tailor's Shop",
+      "source_sentence": "Then a final fitting about two weeks after that, around December 20th."
+    },
+    {
+      "event_name": "Suit Pickup",
+      "people_involved": ["Client"],
+      "date": "by January 5th",
+      "location": "Tailor's Shop",
+      "source_sentence": "Your suit will be ready for pickup by January 5th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Take measurements and pick fabric",
+      "people_involved": ["Tailor", "Client"],
+      "date": "November 15, 2025",
+      "location": "Tailor's Shop",
+      "source_sentence": "Okay, let's take your measurements today. You'll pick out your fabric and we'll place the order."
+    }
+  ]
+}
+41. Research Paper Submission
+Professor: The journal submission deadline for Modern Physics is February 1st. We need to get our paper moving.
+
+Grad Student: I agree. I'm just so tired. I've been running the simulations all month.
+
+Professor: I know the feeling. I just want to read my novel, but we have work. I need your final simulation data no later than December 15th.
+
+Grad Student: I can get it to you by then.
+
+Professor: Good. I will write the analysis and conclusion sections over the holiday break, from December 20th to January 5th.
+
+Grad Student: What about the introduction?
+
+Professor: You can draft the introduction and methodology sections. I need those from you by January 10th. We will compile and submit the final paper on January 25th.
+
+Grad Student: Sounds like a plan. I'll get back to the lab.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Journal Submission Deadline",
+      "people_involved": ["Professor", "Grad Student"],
+      "date": "February 1st",
+      "location": "Modern Physics (Journal)",
+      "source_sentence": "The journal submission deadline for Modern Physics is February 1st."
+    },
+    {
+      "event_name": "Final Paper Submission",
+      "people_involved": ["Professor", "Grad Student"],
+      "date": "January 25th",
+      "location": "N/A",
+      "source_sentence": "We will compile and submit the final paper on January 25th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Provide final simulation data",
+      "people_involved": ["Grad Student"],
+      "date": "no later than December 15th",
+      "location": "N/A",
+      "source_sentence": "I need your final simulation data no later than December 15th."
+    },
+    {
+      "action_name": "Write analysis and conclusion",
+      "people_involved": ["Professor"],
+      "date": "December 20th - January 5th",
+      "location": "N/A",
+      "source_sentence": "I will write the analysis and conclusion sections over the holiday break, from December 20th to January 5th."
+    },
+    {
+      "action_name": "Draft introduction and methodology",
+      "people_involved": ["Grad Student"],
+      "date": "by January 10th",
+      "location": "N/A",
+      "source_sentence": "I need those from you by January 10th."
+    }
+  ]
+}
+42. School Picture Day
+School Admin: Hi parents, this is a reminder that School Picture Day is next Friday, November 21st.
+
+Parent 1: Ugh, already? I just bought my son new shoes and he's already ruined them.
+
+Parent 2: I know, right? My daughter refuses to wear anything but her princess dress.
+
+School Admin: Your child's scheduled photo time will be sent home with them on Monday, November 17th. You must pre-pay for your photo package online by Wednesday, November 19th.
+
+Parent 1: Okay, I'll check my email for the link.
+
+School Admin: If your child is sick, the makeup picture day is scheduled for Tuesday, December 9th.
+
+Parent 2: Good to know. I'll try to find a non-princess outfit by Friday.
+
+Parent 1: Good luck with that.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "School Picture Day",
+      "people_involved": ["School Admin", "Parents", "Children"],
+      "date": "Friday, November 21st",
+      "location": "School",
+      "source_sentence": "Hi parents, this is a reminder that School Picture Day is next Friday, November 21st."
+    },
+    {
+      "event_name": "Makeup Picture Day",
+      "people_involved": ["School Admin", "Parents", "Children"],
+      "date": "Tuesday, December 9th",
+      "location": "School",
+      "source_sentence": "If your child is sick, the makeup picture day is scheduled for Tuesday, December 9th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Send home scheduled photo time",
+      "people_involved": ["School Admin"],
+      "date": "Monday, November 17th",
+      "location": "N/A",
+      "source_sentence": "Your child's scheduled photo time will be sent home with them on Monday, November 17th."
+    },
+    {
+      "action_name": "Pre-pay for photo package",
+      "people_involved": ["Parent 1", "Parent 2"],
+      "date": "by Wednesday, November 19th",
+      "location": "Online",
+      "source_sentence": "You must pre-pay for your photo package online by Wednesday, November 19th."
+    }
+  ]
+}
+43. Book Signing Event
+Bookstore Owner: Hi Ms. Vance, we are so excited to host your book signing for 'The Crimson Key'.
+
+Author: Thank you for having me! I love this store. I just bought a stack of books.
+
+Bookstore Owner: We love having you. So, the event is next Saturday, November 22nd, at 2 PM. We've been advertising it all month.
+
+Author: Wonderful. I will arrive around 1:30 PM to get settled. I'll post about it on my social media tonight and tomorrow to remind my local followers.
+
+Bookstore Owner: That would be amazing. We will have a table set up for you at the front. We've ordered 100 copies of your book, which should arrive on Tuesday, November 18th.
+
+Author: Perfect. I'll do a short reading at 2 PM, and then move to the signing.
+
+Bookstore Owner: Sounds like a plan. We're expecting a big crowd.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Book Signing Event",
+      "people_involved": ["Bookstore Owner", "Author (Ms. Vance)"],
+      "date": "Saturday, November 22nd, 2 PM",
+      "location": "Bookstore",
+      "source_sentence": "So, the event is next Saturday, November 22nd, at 2 PM."
+    },
+    {
+      "event_name": "Book Delivery",
+      "people_involved": ["Bookstore Owner"],
+      "date": "Tuesday, November 18th",
+      "location": "Bookstore",
+      "source_sentence": "We've ordered 100 copies of your book, which should arrive on Tuesday, November 18th."
+    },
+    {
+      "event_name": "Short Reading",
+      "people_involved": ["Author (Ms. Vance)"],
+      "date": "November 22nd, 2 PM",
+      "location": "Bookstore",
+      "source_sentence": "I'll do a short reading at 2 PM, and then move to the signing."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Arrive at event",
+      "people_involved": ["Author (Ms. Vance)"],
+      "date": "November 22nd, 1:30 PM",
+      "location": "Bookstore",
+      "source_sentence": "I will arrive around 1:30 PM to get settled."
+    },
+    {
+      "action_name": "Post on social media",
+      "people_involved": ["Author (Ms. Vance)"],
+      "date": "November 15-16, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll post about it on my social media tonight and tomorrow to remind my local followers."
+    }
+  ]
+}
+44. Holiday Travel Planning
+Amy: Okay, we need to book our flights for Thanksgiving. It's getting late.
+
+Rob: I know, I know. I was just looking. That new thriller movie looks really good, have you seen the trailer?
+
+Amy: Focus, Rob! We need to fly to Chicago on Wednesday, November 26th, and fly back on Sunday, November 30th.
+
+Rob: Right. The prices are insane. I found a flight on Tuesday, November 25th, that's much cheaper.
+
+Amy: I guess I can take Tuesday off. Okay, let's book those flights right now before they go up.
+
+Rob: I'll book them on my credit card. My treat.
+
+Amy: Wow, thanks! I'll call my parents and tell them we'll be there on Tuesday, November 25th.
+
+Rob: Sounds good. Now I just have to rent a car for that week. I'll do that tomorrow.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Thanksgiving Trip",
+      "people_involved": ["Amy", "Rob"],
+      "date": "November 25th - November 30th",
+      "location": "Chicago",
+      "source_sentence": "We need to fly to Chicago on Wednesday, November 26th, and fly back on Sunday, November 30th."
+    },
+    {
+      "event_name": "Flight to Chicago",
+      "people_involved": ["Amy", "Rob"],
+      "date": "Tuesday, November 25th",
+      "location": "N/A",
+      "source_sentence": "I found a flight on Tuesday, November 25th, that's much cheaper."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Take Tuesday off",
+      "people_involved": ["Amy"],
+      "date": "Tuesday, November 25th",
+      "location": "N/A",
+      "source_sentence": "I guess I can take Tuesday off."
+    },
+    {
+      "action_name": "Book the flights",
+      "people_involved": ["Rob"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll book them on my credit card."
+    },
+    {
+      "action_name": "Call parents",
+      "people_involved": ["Amy"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll call my parents and tell them we'll be there on Tuesday, November 25th."
+    },
+    {
+      "action_name": "Rent a car",
+      "people_involved": ["Rob"],
+      "date": "November 16, 2025",
+      "location": "N/A",
+      "source_sentence": "Now I just have to rent a car for that week. I'll do that tomorrow."
+    }
+  ]
+}
+45. Town Hall Meeting
+Mayor: Thank you all for coming to the Town Hall Meeting on November 15th. The first item is the proposed new stoplight at Oak and Vine.
+
+Citizen 1: We need it! I've been trying to make a left turn there for five years.
+
+Mayor: I understand. The City Council will be voting on the proposal at our next meeting on Tuesday, December 2nd.
+
+Citizen 2: What about the Holiday Parade?
+
+Mayor: Ah yes. The annual Holiday Parade is scheduled for Saturday, December 6th at 11 AM. We are still looking for volunteers to help with setup.
+
+Citizen 1: I can help.
+
+Mayor: Great! Please sign up with the clerk on your way out. The deadline for parade float applications is November 20th.
+
+Citizen 2: Okay, thank you.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Town Hall Meeting",
+      "people_involved": ["Mayor", "Citizen 1", "Citizen 2"],
+      "date": "November 15th",
+      "location": "N/A",
+      "source_sentence": "Thank you all for coming to the Town Hall Meeting on November 15th."
+    },
+    {
+      "event_name": "City Council Meeting (Stoplight Vote)",
+      "people_involved": ["City Council", "Mayor"],
+      "date": "Tuesday, December 2nd",
+      "location": "N/A",
+      "source_sentence": "The City Council will be voting on the proposal at our next meeting on Tuesday, December 2nd."
+    },
+    {
+      "event_name": "Annual Holiday Parade",
+      "people_involved": ["Mayor", "Citizens"],
+      "date": "Saturday, December 6th, 11 AM",
+      "location": "N/A",
+      "source_sentence": "The annual Holiday Parade is scheduled for Saturday, December 6th at 11 AM."
+    },
+    {
+      "event_name": "Parade Float Application Deadline",
+      "people_involved": ["Citizens"],
+      "date": "November 20th",
+      "location": "N/A",
+      "source_sentence": "The deadline for parade float applications is November 20th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Sign up to volunteer",
+      "people_involved": ["Citizen 1"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "Please sign up with the clerk on your way out."
+    }
+  ]
+}
+46. Legal Deposition Scheduling
+Paralegal: Hi, I'm calling from the law firm of Smith & Lee. I need to schedule a deposition for the witness, Mr. Frank Johnson.
+
+Opposing Counsel: Okay. This is for the Miller v. Acme case, correct?
+
+Paralegal: That's right. My attorney is available on December 18th and 19th. We'd like to conduct the deposition at our office on 5th Street.
+
+Opposing Counsel: Let me check. My calendar is a mess. I just spilled coffee all over my desk. Okay... December 18th at 10 AM works for us.
+
+Paralegal: Perfect. I will book the conference room and order a court reporter for December 18th at 10 AM.
+
+Opposing Counsel: And I will contact my witness, Mr. Johnson, and confirm his attendance.
+
+Paralegal: Thank you. I'll send the official notice by EOD today.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Deposition of Frank Johnson",
+      "people_involved": ["Paralegal's Attorney", "Opposing Counsel", "Mr. Frank Johnson"],
+      "date": "December 18th, 10 AM",
+      "location": "Smith & Lee Office on 5th Street",
+      "source_sentence": "December 18th at 10 AM works for us."
+    },
+    {
+      "event_name": "Miller v. Acme case",
+      "people_involved": ["Paralegal", "Opposing Counsel"],
+      "date": "N/A",
+      "location": "N/A",
+      "source_sentence": "This is for the Miller v. Acme case, correct?"
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Schedule a deposition",
+      "people_involved": ["Paralegal"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I need to schedule a deposition for the witness, Mr. Frank Johnson."
+    },
+    {
+      "action_name": "Book conference room and order court reporter",
+      "people_involved": ["Paralegal"],
+      "date": "for December 18th",
+      "location": "N/A",
+      "source_sentence": "I will book the conference room and order a court reporter for December 18th at 10 AM."
+    },
+    {
+      "action_name": "Contact witness and confirm attendance",
+      "people_involved": ["Opposing Counsel", "Mr. Frank Johnson"],
+      "date": "N/A",
+      "location": "N/A",
+      "source_sentence": "And I will contact my witness, Mr. Johnson, and confirm his attendance."
+    },
+    {
+      "action_name": "Send official notice",
+      "people_involved": ["Paralegal"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll send the official notice by EOD today."
+    }
+  ]
+}
+47. Retirement Party
+Admin: Hi team, as you know, David is retiring after 30 years. His last day is December 19th.
+
+Co-worker 1: We have to throw him a party. What about a retirement luncheon?
+
+Admin: Great idea. I'll book the large conference room for Friday, December 19th from 12 PM to 2 PM. I'll order catering from his favorite Italian place.
+
+Co-worker 2: I can collect money for a group gift. I'll send an email to everyone by Monday, November 17th. We should buy the gift by December 12th.
+
+Co-worker 1: I'll get a giant card for everyone to sign. I'll leave it at the front desk starting December 1st. I'm so bad at retirement parties, I always cry.
+
+Admin: This will be a nice send-off. I'll send the official calendar invite for the luncheon on December 1st.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "David's Last Day",
+      "people_involved": ["David"],
+      "date": "December 19th",
+      "location": "N/A",
+      "source_sentence": "His last day is December 19th."
+    },
+    {
+      "event_name": "Retirement Luncheon",
+      "people_involved": ["David", "Admin", "Co-worker 1", "Co-worker 2", "Team"],
+      "date": "Friday, December 19th, 12 PM - 2 PM",
+      "location": "Large Conference Room",
+      "source_sentence": "I'll book the large conference room for Friday, December 19th from 12 PM to 2 PM."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Order catering",
+      "people_involved": ["Admin"],
+      "date": "before December 19th",
+      "location": "N/A",
+      "source_sentence": "I'll order catering from his favorite Italian place."
+    },
+    {
+      "action_name": "Collect money for group gift",
+      "people_involved": ["Co-worker 2"],
+      "date": "starting November 17th",
+      "location": "N/A",
+      "source_sentence": "I can collect money for a group gift. I'll send an email to everyone by Monday, November 17th."
+    },
+    {
+      "action_name": "Buy the gift",
+      "people_involved": ["Co-worker 2"],
+      "date": "by December 12th",
+      "location": "N/A",
+      "source_sentence": "We should buy the gift by December 12th."
+    },
+    {
+      "action_name": "Get a card for signing",
+      "people_involved": ["Co-worker 1"],
+      "date": "starting December 1st",
+      "location": "Front Desk",
+      "source_sentence": "I'll get a giant card for everyone to sign. I'll leave it at the front desk starting December 1st."
+    },
+    {
+      "action_name": "Send luncheon calendar invite",
+      "people_involved": ["Admin"],
+      "date": "December 1st",
+      "location": "N/A",
+      "source_sentence": "I'll send the official calendar invite for the luncheon on December 1st."
+    }
+  ]
+}
+48. Plumber Appointment
+Homeowner: Hi, my kitchen sink is completely clogged. I've tried everything.
+
+Plumber: Oh, that's no good. This is Quick-Fix Plumbers. I can get a technician out to you, but we're booked solid today.
+
+Homeowner: I can't wait! I have so many dishes. My kitchen smells awful.
+
+Plumber: I understand. I have an emergency slot open tomorrow morning, November 16th, at 8 AM. It's an extra fee.
+
+Homeowner: I'll take it. Please, just come.
+
+Plumber: Okay. I have you booked for 8 AM on November 16th. The technician, Sam, will call you 30 minutes before he arrives.
+
+Homeowner: Thank you, thank you.
+
+Plumber: No problem. Just make sure the area under the sink is clear before he gets there.
+
+Homeowner: Will do.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Plumber Appointment",
+      "people_involved": ["Homeowner", "Sam (Technician)"],
+      "date": "November 16th, 8 AM",
+      "location": "Homeowner's house",
+      "source_sentence": "I have you booked for 8 AM on November 16th."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Technician call-ahead",
+      "people_involved": ["Sam (Technician)"],
+      "date": "November 16th, ~7:30 AM",
+      "location": "N/A",
+      "source_sentence": "The technician, Sam, will call you 30 minutes before he arrives."
+    },
+    {
+      "action_name": "Clear area under sink",
+      "people_involved": ["Homeowner"],
+      "date": "before November 16th, 8 AM",
+      "location": "Homeowner's house",
+      "source_sentence": "Just make sure the area under the sink is clear before he gets there."
+    }
+  ]
+}
+49. Class Registration
+Student: Hi, I'm trying to register for Spring 2026 classes, and the system says I have a hold.
+
+Registrar: Let me look up your account. Yes, it looks like you have a library fine from last semester.
+
+Student: What? I returned that book! I'm so annoyed.
+
+Registrar: You'll have to talk to the library to get that hold removed. Your registration window is open until Friday, November 21st.
+
+Student: Okay, I'll go to the library right now.
+
+Registrar: Once they clear the hold, you can register for your classes. I'd do it soon, that Intro to Psych class you want only has 3 seats left.
+
+Student: Okay, I'm running there now. Thanks.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "Spring 2026 Class Registration",
+      "people_involved": ["Student", "Registrar"],
+      "date": "November 15th - 21st",
+      "location": "N/A",
+      "source_sentence": "Your registration window is open until Friday, November 21st."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Talk to the library",
+      "people_involved": ["Student"],
+      "date": "November 15, 2025",
+      "location": "Library",
+      "source_sentence": "You'll have to talk to the library to get that hold removed."
+    },
+    {
+      "action_name": "Go to the library",
+      "people_involved": ["Student"],
+      "date": "November 15, 2025",
+      "location": "Library",
+      "source_sentence": "Okay, I'll go to the library right now."
+    },
+    {
+      "action_name": "Register for classes",
+      "people_involved": ["Student"],
+      "date": "by November 21st",
+      "location": "N/A",
+      "source_sentence": "Once they clear the hold, you can register for your classes."
+    }
+  ]
+}
+50. Organizing a Protest
+Organizer 1: The City Council is voting on December 2nd to sell the parkland on Chester Avenue. We have to stop them.
+
+Organizer 2: I agree. We should organize a protest outside City Hall on the day of the vote.
+
+Organizer 1: Yes. We'll hold the rally on Tuesday, December 2nd at 5 PM, right before their 6 PM meeting. I'm so angry I can't even eat.
+
+Organizer 2: We need to spread the word. I'll create the Facebook event and make a flyer tonight. I'll send it to you for approval.
+
+Organizer 1: Great. I will apply for the protest permit from the police department on Monday, November 17th. I'll also call the local news and send them a press release by November 25th.
+
+Organizer 2: I'll bring my megaphone. We need to be loud.
+
+Organizer 1: This is important. Let's get to work.
+
+JSON
+
+{
+  "events": [
+    {
+      "event_name": "City Council Vote",
+      "people_involved": ["City Council"],
+      "date": "December 2nd",
+      "location": "City Hall",
+      "source_sentence": "The City Council is voting on December 2nd to sell the parkland on Chester Avenue."
+    },
+    {
+      "event_name": "Protest / Rally",
+      "people_involved": ["Organizer 1", "Organizer 2", "Protesters"],
+      "date": "Tuesday, December 2nd, 5 PM",
+      "location": "Outside City Hall",
+      "source_sentence": "We'll hold the rally on Tuesday, December 2nd at 5 PM, right before their 6 PM meeting."
+    }
+  ],
+  "actions": [
+    {
+      "action_name": "Create Facebook event and flyer",
+      "people_involved": ["Organizer 2"],
+      "date": "November 15, 2025",
+      "location": "N/A",
+      "source_sentence": "I'll create the Facebook event and make a flyer tonight."
+    },
+    {
+      "action_name": "Apply for protest permit",
+      "people_involved": ["Organizer 1"],
+      "date": "Monday, November 17th",
+      "location": "Police Department",
+      "source_sentence": "I will apply for the protest permit from the police department on Monday, November 17th."
+    },
+    {
+      "action_name": "Call local news and send press release",
+      "people_involved": ["Organizer 1"],
+      "date": "by November 25th",
+      "location": "N/A",
+      "source_sentence": "I'll also call the local news and send them a press release by November 25th."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  [
+    [
+      3.0,
+      2.5,
+      7.1,
+      2.8
+    ],
+    1.0,
+    [
+      0.9130434782608695,
+      0.9130434782608695,
+      0.0,
+      0.9130434782608695
+    ]
+  ],
+  [
+    {
+      "0": {
+        "accuracy_score": 3,
+        "completeness_score": 2,
+        "format_score": 10,
+        "overall_score": 3,
+        "justification": "The extracted dictionary contains a critical error with the 'date' for 'Planning a Birthday Party', incorrectly listing the current date (2025-11-17) instead of April 29th. The 'location' field is empty for both the event and the action, despite being mentioned in the transcript (brewery, patio area). Several explicit actions, such as 'handling e-vites' and 'ordering the cake', are completely missing from the extraction. The format is correct, but the accuracy and completeness are very poor."
+      },
+      "1": {
+        "accuracy_score": 3,
+        "completeness_score": 4,
+        "format_score": 9,
+        "overall_score": 4,
+        "justification": "Accuracy: Dates are consistently incorrect (extracted as current date instead of October 10th or October 3rd). Locations ('main conference room') are missing. People involved are incomplete (e.g., 'entire executive team', 'Sarah's team'). Completeness: Key information like specific locations and additional participants are missing. A distinct action ('sending slide deck to Maria') is not captured. Format: The JSON structure and data types are correct, but the content of the date fields is inaccurate."
+      },
+      "2": {
+        "accuracy_score": 3,
+        "completeness_score": 2,
+        "format_score": 1,
+        "overall_score": 2,
+        "justification": "The event date is incorrect, the location is missing, and the action date is severely malformed and contains extraneous text. Other relevant actions are not extracted."
+      },
+      "3": {
+        "accuracy_score": 6,
+        "completeness_score": 4,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extracted data correctly identifies the Project Titan launch date and the web copy submission deadline. However, it incorrectly attributes the 'submit final web copy' action to Jen, when she stated 'They need to submit'. It also only partially identifies 'people_involved' for the Project Titan launch, as Jen is also heavily discussing it. Several key events and actions are missing, including the 'final code freeze by November 10th', the 'final QA testing sprint from 13th to 17th', and 'Jen's vacation starting November 21st'. The format is correct."
+      },
+      "4": {
+        "accuracy_score": 1,
+        "completeness_score": 1,
+        "format_score": 10,
+        "overall_score": 1,
+        "justification": "The extracted dictionary is empty and contains no information from the transcript, failing to extract any events or actions mentioned."
+      },
+      "5": {
+        "accuracy_score": 4,
+        "completeness_score": 5,
+        "format_score": 10,
+        "overall_score": 5,
+        "justification": "The extraction contains several inaccuracies regarding dates and people involved. For the 'Seasonal Allergies' event, the people_involved and date are incorrect. For the 'Scheduling a Doctor's Appointment' event, the date provided is for the actual appointment, not the scheduling event itself, and the source_sentence is unrelated. The people_involved for 'Schedule Annual Check-up' is incomplete. Crucially, the action/event related to 'blood work' is entirely missing."
+      },
+      "6": {
+        "accuracy_score": 2,
+        "completeness_score": 1,
+        "format_score": 0,
+        "overall_score": 1,
+        "justification": "The extracted JSON is malformed and syntactically invalid. Event and action dates are incorrect, showing the current date instead of dates from the transcript (June 28th, July 1st, June 30th). Several key events and actions (e.g., lease signing as a distinct event, utilities transfer, internet installation) are missing. The location for the lease signing is also not captured. The source_sentence fields are malformed and contain extra characters."
+      },
+      "7": {
+        "accuracy_score": 2,
+        "completeness_score": 2,
+        "format_score": 10,
+        "overall_score": 3,
+        "justification": "The extracted dates are incorrect; they default to the current date instead of extracting specific dates and deadlines from the transcript (e.g., August 12th, July 15th, July 20th). The extraction is incomplete, missing several key actions such as setting up the donation page, emailing sign-up links, and ordering t-shirts. The main event, 'Community 5K Run,' is not explicitly identified with its date. The format is correct."
+      },
+      "8": {
+        "accuracy_score": 2,
+        "completeness_score": 1,
+        "format_score": 1,
+        "overall_score": 1,
+        "justification": "The extracted data contains significant inaccuracies, especially with dates which are incorrectly set to the current date instead of the specific dates mentioned in the transcript (e.g., February 6th, February 20th, March 1st). The completeness is very poor as it misses most of the key renovation timeline events and actions such as demolition, cabinet delivery/installation, and countertop installation. Additionally, there are formatting errors including a duplicated action entry and a malformed string in one of the source sentences, along with invalid JSON syntax at the end of the first action entry."
+      },
+      "9": {
+        "accuracy_score": 4,
+        "completeness_score": 3,
+        "format_score": 10,
+        "overall_score": 3,
+        "justification": "The extracted data contains significant inaccuracies regarding dates and missing crucial information such as event locations, the book being discussed, and event time. For example, the event and action dates are incorrect (November 17th/7th instead of December 7th), and locations are not specified. Many other relevant details from the transcript are also omitted."
+      }
+    },
+    [
+      {
+        "event_name": 11,
+        "people_involved": 21,
+        "date": 21,
+        "location": 0,
+        "source_sentence": 21,
+        "action_name": 10
+      },
+      23,
+      10,
+      0
+    ],
+    10,
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  {
+    "overall_events": {
+      "tp": 2,
+      "fp": 10,
+      "fn": 10,
+      "precision": 2.0,
+      "recall": 2.0,
+      "f1": 2.0
+    }
+  },
+  null
+]
